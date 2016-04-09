@@ -39,13 +39,13 @@ $lang = array(
 'Запрашиваемый модуль не установлен:',
 
 'manual' => 
-'Manual',
+'Документация',
 
 'author' => 
 'Автор',
 
 'example_usage' => 
-'Пример',
+'Пример использования',
 
 'available_parameters' => 
 'Доступные параметры',
@@ -81,7 +81,7 @@ $lang = array(
 'показать',
 
 'custom_limit' => 
-'custom limit',
+'Настраиваемое количество',
 
 'entries' => 
 'Записи',
@@ -99,7 +99,7 @@ $lang = array(
 'Удалено',
 
 'needs_updates' => 
-'Необходимы обновления',
+'Необходимо обновление',
 
 'addons_installed' => 
 'Модули установлены',
@@ -279,7 +279,7 @@ $lang = array(
 '%x и более...',
 
 'plugins_not_available' => 
-'Plugin Feed Disabled in Beta Version.',
+'Плагины не доступны.',
 
 'no_extension_id' => 
 'Расширений не выбрано',
