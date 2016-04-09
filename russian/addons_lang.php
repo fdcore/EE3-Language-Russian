@@ -132,7 +132,7 @@ $lang = array(
 'Class %c does not exist in (%f)',
 
 'default_map' => 
-'Default Map',
+'Дефолтная карта',
 
 'manual_override' => 
 'Manual Override',
