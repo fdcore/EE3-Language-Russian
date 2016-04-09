@@ -15,118 +15,118 @@ $lang = array(
 'Управление расширениями',
 
 'manage_addon_extensions' => 
-'Manage Add-on Extensions',
+'Управление модулями',
 
 'addon_manager' => 
-'Add-On Manager',
+'Менеджер модулей',
 
 'search_addons_button' => 
-'search add-ons',
+'Искать модули',
 
 'addon' => 
-'Add-On',
+'Модуль',
 
 'addons' => 
-'Add-Ons',
+'модули',
 
 'no_addon_search_results' => 
-'No <b>Add-Ons</b> Found',
+'Модулей не найдено',
 
 'no_addon_extensions_search_results' => 
-'No <b>Add-on Extensions</b> Found',
+'Расширений не найдено',
 
 'requested_module_not_installed' => 
-'The requested module is not installed:',
+'Запрашиваемый модуль не установлен:',
 
 'manual' => 
 'Manual',
 
 'author' => 
-'Author',
+'Автор',
 
 'example_usage' => 
-'Example Usage',
+'Пример',
 
 'available_parameters' => 
-'Available Parameters',
+'Доступные параметры',
 
 'update' => 
-'Update',
+'Обновить',
 
 'update_to_version' => 
-'Update to %s',
+'Обновить до %s',
 
 'confirm_uninstall' => 
-'Confirm Uninstall',
+'Подтвердить удаление',
 
 'confirm_uninstall_desc' => 
-'You are attempting to uninstall the following items, please confirm this action.',
+'Вы пытаетесь удалить следующие объекты, пожалуйста, подтвердите это действие.',
 
 'btn_confirm_and_uninstall' => 
-'Confirm, and Uninstall',
+'Подтвердить и удалить',
 
 'btn_confirm_and_uninstall_working' => 
-'Uninstalling...',
+'Удаление...',
 
 'filters' => 
-'Filters',
+'Фильтры',
 
 'filter_by_status' => 
-'status',
+'статус',
 
 'developer' => 
-'developer',
+'разработчик',
 
 'show' => 
-'show',
+'показать',
 
 'custom_limit' => 
 'custom limit',
 
 'entries' => 
-'Entries',
+'Записи',
 
 'install' => 
-'Install',
+'Установить',
 
 'installed' => 
-'Installed',
+'Установлено',
 
 'uninstall' => 
-'Uninstall',
+'Удалить',
 
 'uninstalled' => 
-'Uninstalled',
+'Удалено',
 
 'needs_updates' => 
-'Needs Updates',
+'Необходимы обновления',
 
 'addons_installed' => 
-'Add-Ons Installed',
+'Модули установлены',
 
 'addons_installed_desc' => 
-'The following add-on(s) have been installed: ',
+'Следующие модули были установлены: ',
 
 'addons_uninstalled' => 
-'Add-Ons Uninstalled',
+'Модули удалены',
 
 'addons_uninstalled_desc' => 
-'The following add-on(s) have been uninstalled: ',
+'Следующие модули были удалены: ',
 
 'addons_updated' => 
-'Add-Ons Updated',
+'Модули обновлены',
 
 'addons_updated_desc' => 
-'The following add-on(s) have been updated: ',
+'Следующие модули были обновлены: ',
 
 'btn_save_settings' => 
-'Save Settings',
+'Сохранить настройки',
 
 'settings_saved' => 
-'Settings Saved',
+'Настройки сохранены',
 
 'settings_saved_desc' => 
-'The settings for %s have been saved.',
+'Настройки для %s были сохранены.',
 
 'extension_class_does_not_exist' => 
 'Class %c does not exist in (%f)',
