@@ -15,277 +15,277 @@ $lang = array(
 'Управление расширениями',
 
 'manage_addon_extensions' => 
-'Manage Add-on Extensions',
+'Управление модулями',
 
 'addon_manager' => 
-'Add-On Manager',
+'Менеджер модулей',
 
 'search_addons_button' => 
-'search add-ons',
+'Искать модули',
 
 'addon' => 
-'Add-On',
+'Модуль',
 
 'addons' => 
-'Add-Ons',
+'модули',
 
 'no_addon_search_results' => 
-'No <b>Add-Ons</b> Found',
+'Модулей не найдено',
 
 'no_addon_extensions_search_results' => 
-'No <b>Add-on Extensions</b> Found',
+'Расширений не найдено',
 
 'requested_module_not_installed' => 
-'The requested module is not installed:',
+'Запрашиваемый модуль не установлен:',
 
 'manual' => 
-'Manual',
+'Документация',
 
 'author' => 
-'Author',
+'Автор',
 
 'example_usage' => 
-'Example Usage',
+'Пример использования',
 
 'available_parameters' => 
-'Available Parameters',
+'Доступные параметры',
 
 'update' => 
-'Update',
+'Обновить',
 
 'update_to_version' => 
-'Update to %s',
+'Обновить до %s',
 
 'confirm_uninstall' => 
-'Confirm Uninstall',
+'Подтвердить удаление',
 
 'confirm_uninstall_desc' => 
-'You are attempting to uninstall the following items, please confirm this action.',
+'Вы пытаетесь удалить следующие объекты, пожалуйста, подтвердите это действие.',
 
 'btn_confirm_and_uninstall' => 
-'Confirm, and Uninstall',
+'Подтвердить и удалить',
 
 'btn_confirm_and_uninstall_working' => 
-'Uninstalling...',
+'Удаление...',
 
 'filters' => 
-'Filters',
+'Фильтры',
 
 'filter_by_status' => 
-'status',
+'статус',
 
 'developer' => 
-'developer',
+'разработчик',
 
 'show' => 
-'show',
+'показать',
 
 'custom_limit' => 
-'custom limit',
+'Настраиваемое количество',
 
 'entries' => 
-'Entries',
+'Записи',
 
 'install' => 
-'Install',
+'Установить',
 
 'installed' => 
-'Installed',
+'Установлено',
 
 'uninstall' => 
-'Uninstall',
+'Удалить',
 
 'uninstalled' => 
-'Uninstalled',
+'Удалено',
 
 'needs_updates' => 
-'Needs Updates',
+'Необходимо обновление',
 
 'addons_installed' => 
-'Add-Ons Installed',
+'Модули установлены',
 
 'addons_installed_desc' => 
-'The following add-on(s) have been installed: ',
+'Следующие модули были установлены: ',
 
 'addons_uninstalled' => 
-'Add-Ons Uninstalled',
+'Модули удалены',
 
 'addons_uninstalled_desc' => 
-'The following add-on(s) have been uninstalled: ',
+'Следующие модули были удалены: ',
 
 'addons_updated' => 
-'Add-Ons Updated',
+'Модули обновлены',
 
 'addons_updated_desc' => 
-'The following add-on(s) have been updated: ',
+'Следующие модули были обновлены: ',
 
 'btn_save_settings' => 
-'Save Settings',
+'Сохранить настройки',
 
 'settings_saved' => 
-'Settings Saved',
+'Настройки сохранены',
 
 'settings_saved_desc' => 
-'The settings for %s have been saved.',
+'Настройки для %s были сохранены.',
 
 'extension_class_does_not_exist' => 
-'Class %c does not exist in (%f)',
+'Класс %c не существует в (%f)',
 
 'default_map' => 
-'Default Map',
+'Дефолтная карта',
 
 'manual_override' => 
-'Manual Override',
+'Ручное управление',
 
 'latitude' => 
-'Latitude',
+'Широта',
 
 'latitude_desc' => 
-'Default latitude for this field.',
+'Дефолтная широта для этого поля.',
 
 'longitude' => 
-'Longitude',
+'Долгота',
 
 'longitude_desc' => 
-'Default longitude for this field.',
+'Дефолтная долгота для этого поля.',
 
 'zoom' => 
-'Zoom',
+'Увеличить',
 
 'zoom_desc' => 
-'Default zoom level for this field.',
+'Дефолтный уровень увеличения.',
 
 'preview' => 
-'Preview',
+'Превью',
 
 'preview_desc' => 
-'Default view of the map as it will appear for the field.',
+'Вид карты по умолчанию.',
 
 'modules' => 
-'Modules',
+'Модули',
 
 'extensions' => 
-'Extensions',
+'Расширения',
 
 'plugins' => 
-'Plugins',
+'Плагины',
 
 'module' => 
-'Module',
+'Модуль',
 
 'extension' => 
-'Extension',
+'Расширение',
 
 'rte_tool' => 
 'Rich Text Editor Tool',
 
 'addons_modules' => 
-'Modules',
+'Модули',
 
 'addons_plugins' => 
-'Plugins',
+'Плагины',
 
 'addons_extensions' => 
-'Extensions',
+'Расширения',
 
 'addons_fieldtypes' => 
-'Fieldtypes',
+'Типы полей',
 
 'fieldtype_name' => 
-'Fieldtype Name',
+'Имя типа поля',
 
 'not_installed' => 
-'Not Installed',
+'Не установлено',
 
 'remove' => 
-'Remove',
+'Удалить',
 
 'extension_enabled' => 
-'Extension Enabled',
+'Расширение Включено',
 
 'extension_disabled' => 
-'Extension Disabled',
+'Расширение отключено',
 
 'extensions_enabled' => 
-'Extensions Enabled',
+'Расширения включены',
 
 'extensions_disabled' => 
-'Extensions Disabled',
+'Расширения отключены',
 
 'extensions_enabled_desc' => 
-'Extensions have been enabled.',
+'Расширения были включены.',
 
 'extensions_disabled_desc' => 
-'Extensions have been disabled.',
+'Расширения были отключены.',
 
 'ext_enabled_short' => 
-'enabled',
+'включено',
 
 'ext_disabled_short' => 
-'disabled',
+'отключено',
 
 'delete_fieldtype_confirm' => 
-'Are you sure you want to remove this fieldtype?',
+'Вы уверены, что хотите удалить этот тип поля?',
 
 'delete_fieldtype' => 
-'Remove Fieldtype',
+'Удалить тип поля',
 
 'fieldtype_data_will_be_lost' => 
-'All data associated with this fieldtype, including all associated channel data, will be permanently deleted!',
+'Все данные, связанные с этим типом поля, включая все связанные с ним данные канала, будут удалены навсегда!',
 
 'global_settings_saved' => 
-'Settings Saved',
+'Настройки сохранены',
 
 'package_settings' => 
-'Package Settings',
+'Настройки пакета',
 
 'component' => 
-'Component',
+'Компонент',
 
 'current_status' => 
-'Current Status',
+'Текущий статус',
 
 'required_by' => 
-'Required by:',
+'Обязательно для:',
 
 'extensions_disabled_warning' => 
-'In order to install this add-on you need to enable extensions. Do you want to enable extensions?',
+'Для установки этого модуля Вам необходимо включить расширения. Включить расширения?',
 
 'available_to_member_groups' => 
-'Available to Member Groups',
+'Доступно для групп',
 
 'specific_page' => 
 'Specific Page?',
 
 'description' => 
-'Description',
+'Описание',
 
 'version' => 
-'Version',
+'Версия',
 
 'fieldtype' => 
-'Fieldtype',
+'Тип поля',
 
 'member_group_assignment' => 
-'Assigned Member Groups',
+'Назначено для групп пользователей',
 
 'page_assignment' => 
-'Assigned Pages',
+'Назначенные Страницы',
 
 'none' => 
-'None',
+'Нет',
 
 'and_more' => 
-'and %x more...',
+'%x и более...',
 
 'plugins_not_available' => 
-'Plugin Feed Disabled in Beta Version.',
+'Плагины не доступны.',
 
 'no_extension_id' => 
-'No Extension Specified',
+'Расширений не выбрано',
 
 'configuration' => 
-'Configuration',
+'Конфигурация',
 
 ''=>''
 );
