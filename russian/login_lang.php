@@ -1,64 +1,53 @@
 <?php
-
 $lang = array(
-
-//----------------------------
-// Log-in
-//----------------------------
-
-'remember_me' => 'Keep me logged in.',
-
-'no_username' => 'The username field is required',
-
-'no_password' => 'The password field is required',
-
-'no_email' => 'You must submit your email address.',
-
-'credential_missmatch' => 'That is the wrong username or password',
-
-'multi_login_warning' => 'Someone is already logged in using this account',
-
-'return_to_login' => 'Return to login',
-
-'password_lockout_in_effect' => 'You are only permitted to make four login attempts every %d minute(s)',
-
-'locked' => 'Locked',
-
-'unauthorized_request' => 'You are not authorized to perform this action',
-
-'new_password_request' => 'New Password Request',
-
-'session_auto_timeout' => 'Your session has timed out due to inactivity',
-
-//-----------------------------------
-// Reset Password
-//-----------------------------------
-
-'email_address' => 'Email address',
-
-'forgotten_password' => 'I forgot my password',
-
-'no_reset_id' => 'The password reset token does not appear to be valid.  Please check the link you followed.',
-
-'id_not_found' => 'The code number you submitted was not found in the database.',
-
-'password_changed' => 'Password Successfully Changed',
-
-'successfully_changed_password' => 'You have successfully changed your password.  Please login using your new password.',
-
-'reset_password' => 'Reset Password',
-
-'new_password' => 'New password',
-
-'new_password_confirm' => 'Confirm new password',
-
-'enter_new_password' => 'Enter a New Password',
-
-'login' => 'Log In',
-
-'log_into' => 'Log into',
-
-''=>''
-);
-
-// EOF
+'remember_me' => 
+'Запомнить меня?',
+'no_username' => 
+'Указанное имя пользователя в базе данных не найдено',
+'no_password' => 
+'Указан неверный пароль.',
+'no_email' => 
+'Необходимо указать E-mail.',
+'credential_missmatch' => 
+'Неверный логин или пароль',
+'multi_login_warning' => 
+'Эта учетная запись уже используется.',
+'return_to_login' => 
+'Вернуться',
+'password_lockout_in_effect' => 
+'Ввод паролей возможен только четыре раза в %x мин.',
+'locked' => 
+'Locked',
+'unauthorized_request' => 
+'Вы не авторизованы для выполнения этой операции',
+'new_password_request' => 
+'Новый запрос пароля',
+'session_auto_timeout' => 
+'Ваш сеанс завершен вследствие вашей неактивности',
+'email_address' => 
+'Email address',
+'forgotten_password' => 
+'Сбросить пароль',
+'no_reset_id' => 
+'Идентификационный номер, который Вы представили, не действителен. Пожалуйста, проверьте ссылку, по которой вы перешли.',
+'id_not_found' => 
+'Код, который Вы представили не найден в базе данных.',
+'password_changed' => 
+'Пароль успешно изменен',
+'successfully_changed_password' => 
+'Вы успешно изменили пароль.  Пожалуйста, войдите с помощью нового пароля.',
+'reset_password' => 
+'Reset Password',
+'new_password' => 
+'Новый пароль',
+'new_password_confirm' => 
+'Подтвердите новый пароль',
+'enter_new_password' => 
+'Введите новый пароль',
+'login' => 
+'Log In',
+'log_into' => 
+'Log into',
+'' => 
+'',
+''=>'');

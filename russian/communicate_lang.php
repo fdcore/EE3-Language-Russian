@@ -1,83 +1,155 @@
 <?php
 $lang = array(
-
-'your_name'				=> 'Your Name',
-'your_email'			=> 'Your email',
-'recipient'				=> 'Recipient',
-'cc'					=> 'CC',
-'bcc'					=> 'BCC',
-'recipient_group'		=> 'Send to Member Groups',
-'manual_recipients_ignored'	=> 'The recipient field above will be ignored',
-'honor_email_pref'			=> 'Send only to members who have chosen to accept email',
-'separate_emails_with_comma'			=> 'Separate multiple addresses with a comma',
-'no_email_matching_criteria'			=> 'There were no email addresses matching the criteria you selected',
-'not_allowed_to_email_members'			=> 'You are not allowed to email members',
-'not_allowed_to_email_member_groups'	=> 'You are not allowed to email Member Groups',
-'not_allowed_to_email_cache'			=> 'You are not allowed to view the email cache.',
-'subject'				=> 'Subject',
-'message'				=> 'Message',
-'plaintext_body'		=> 'Plain text body',
-'plaintext_alt'			=> 'Alternate content for your <abbr title="Hyper-Text Markup Language">HTML</abbr> Email, will be delivered in Plain Text, when an Email application cannot render <abbr title="Hyper-Text Markup Language">HTML</abbr>.',
-'send_an_email'			=> 'Send an Email',
-'sending_email'			=> 'Sending Email',
-'batchmode_ready_to_begin'	=> 'The email sending routine will begin in five seconds',
-'batchmode_warning'		=> 'Do not touch your browser until the process is completely finished!',
-'batchmode_disabled'	=> 'Batch Mode is disabled',
-'problem_with_id'		=> 'A problem was encountered with the ID number needed to send emails',
-'cache_data_missing'	=> 'The email cache data was not located.',
-'currently_sending_batch'	=> 'Now sending emails %x through %y',
-'emails_remaining'		=> 'Emails Remaining:',
-'email_error'			=> 'Email error',
-'send_it'				=> 'Send it',
-'total_emails_sent'		=> 'Total number of emails sent:',
-'plain_text'			=> 'Plain Text',
-'markdown'				=> 'Markdown',
-'html'					=> 'HTML',
-'mail_format'			=> 'Email Formatting',
-'text_formatting'		=> 'Text Formatting',
-'none'					=> 'None',
-'auto_br'				=> 'Auto &lt;br /&gt;',
-'xhtml'					=> 'XHTML',
-'wordwrap'				=> 'Word Wrapping',
-'priority'				=> 'Priority',
-'attachment'			=> 'Attachment',
-'attachment_problem'	=> 'There was a problem attaching your file.',
-'attachment_unavailable'	=> 'For attachments to be sent, an upload location needs to be defined.',
-'attachment_warning'	=> 'Attachments are <strong>not saved</strong> by ExpressionEngine, and must be saved locally.',
-'chars'					=> 'characters',
-'highest'				=> 'Highest',
-'high'					=> 'High',
-'normal'				=> 'Normal',
-'low'					=> 'Low',
-'lowest'				=> 'Lowest',
-'empty_form_fields'		=> 'You left some fields empty.',
-'email_sent_message'	=> 'Your email has been sent',
-'all_email_sent_message'	=> 'All emails have been sent',
-'email_success'			=> 'Email Sent',
-'view_email_cache'		=> 'Sent Emails',
-'emails'				=> 'Emails',
-'previous_email'		=> 'Previously Sent Email',
-'email_title'			=> 'Email Title',
-'email_date'			=> 'Date Sent',
-'total_recipients'		=> 'Total Recipients',
-'resend'				=> 'Re-send',
-'view'					=> 'View',
-'no_cached_email'		=> 'No <b>cached emails</b> found.',
-'delete_emails'			=> 'Delete Email',
-'delete_confirm'		=> 'Delete Email Confirmation',
-'delete_question'		=> 'Are you sure you want to delete the specified email(s)?',
-'email_deleted'			=> 'Email has been deleted',
-'complete'				=> 'Complete',
-'incomplete'			=> 'Incomplete',
-'finish_sending'		=> 'Finish Sending',
-'on'					=> 'On',
-'off'					=> 'Off',
-'total_sent'			=> 'Total Sent',
-'remove'				=> 'Remove',
-'dummy_location'		=> 'The email was output to: %s',
-'search_emails_button'	=> 'Search Emails',
-
-''=>''
-);
-
-// EOF
+'your_name' => 
+'Ваше имя',
+'your_email' => 
+'Ваш E-mail',
+'recipient' => 
+'Получатель',
+'cc' => 
+'Копия',
+'bcc' => 
+'Скрытая копия',
+'recipient_group' => 
+'Отправить группе участников',
+'manual_recipients_ignored' => 
+'Поле адресата (верхнее) будет проигнорировано',
+'honor_email_pref' => 
+'Отправить только участникам, которые согласны принимать E-mail.',
+'separate_emails_with_comma' => 
+'Разделяйте адреса запятой',
+'no_email_matching_criteria' => 
+'Совпадений с Вашим запросом в базе адресов нет',
+'not_allowed_to_email_members' => 
+'Вы не можете отправлять письма участникам',
+'not_allowed_to_email_member_groups' => 
+'Вы не можете отправлять письма группе участников',
+'not_allowed_to_email_cache' => 
+'У вас нет прав для просмотра кэша электронной почты.',
+'subject' => 
+'Тема',
+'message' => 
+'Сообщение',
+'plaintext_body' => 
+'Plain text body',
+'plaintext_alt' => 
+'Альтернативный обычный текст (по желанию, только для электронных писем в HTML, без форматирования текста)',
+'send_an_email' => 
+'Отправить письмо',
+'sending_email' => 
+'Отправка письма',
+'batchmode_ready_to_begin' => 
+'Отправка писем начнется через пять секунд',
+'batchmode_warning' => 
+'Ничего не предпринимайте, пока процесс отправки не будет завершен!',
+'batchmode_disabled' => 
+'Batch Mode is disabled',
+'problem_with_id' => 
+'Проблема: для возможности отправки писем нужен номер ID',
+'cache_data_missing' => 
+'Данные почтового кэша не обнаружены.',
+'currently_sending_batch' => 
+'Отправляются письма %x - %y',
+'emails_remaining' => 
+'Осталось Email-сообщений:',
+'email_error' => 
+'Ошибка отправки E-mail',
+'send_it' => 
+'Отправить',
+'total_emails_sent' => 
+'Отправлено писем:',
+'plain_text' => 
+'Текст',
+'markdown' => 
+'Markdown',
+'html' => 
+'HTML',
+'mail_format' => 
+'Формат писем по умолчанию',
+'text_formatting' => 
+'Форматирование текста',
+'none' => 
+'Отключено',
+'auto_br' => 
+'Автомат. &lt;br /&gt;',
+'xhtml' => 
+'XHTML',
+'wordwrap' => 
+'Автоперенос строк',
+'priority' => 
+'Приоритет',
+'attachment' => 
+'Вложение',
+'attachment_problem' => 
+'Проблемы с вложением ваших файлов',
+'attachment_unavailable' => 
+'Для отправки вложения необходимо указать место загруженного файла.',
+'attachment_warning' => 
+'Вложение <strong>не сохранено</strong> в ExpressionEngine, и должно быть сохранено локально.',
+'chars' => 
+'символы',
+'highest' => 
+'Самый высокий',
+'high' => 
+'Высокий',
+'normal' => 
+'Обычный',
+'low' => 
+'Низкий',
+'lowest' => 
+'Самый низкий',
+'empty_form_fields' => 
+'Вы не заполнили некоторые обязательные поля.',
+'email_sent_message' => 
+'Ваше письмо отправлено',
+'all_email_sent_message' => 
+'Все письма успешно отправлены',
+'email_success' => 
+'Отправка E-mail',
+'view_email_cache' => 
+'Просмотр предыдущих писем',
+'emails' => 
+'Emails',
+'previous_email' => 
+'Отправленные письма',
+'email_title' => 
+'Заголовок E-mail',
+'email_date' => 
+'Дата отправки',
+'total_recipients' => 
+'Количество получателей',
+'resend' => 
+'Отправить повторно',
+'view' => 
+'Просмотр',
+'no_cached_email' => 
+'Нет кэшированных писем',
+'delete_emails' => 
+'Удалить',
+'delete_confirm' => 
+'Подтверждение удаления',
+'delete_question' => 
+'Вы действительно хотите удалить выбранные письма?',
+'email_deleted' => 
+'Письмо было удалено',
+'complete' => 
+'Завершено',
+'incomplete' => 
+'Не завершено',
+'finish_sending' => 
+'Окончание отправки',
+'on' => 
+'вкл.',
+'off' => 
+'выкл.',
+'total_sent' => 
+'Total Sent',
+'remove' => 
+'Remove',
+'dummy_location' => 
+'The email was output to: %s',
+'search_emails_button' => 
+'Search Emails',
+'' => 
+'',
+''=>'');

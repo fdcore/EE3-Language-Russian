@@ -1,70 +1,67 @@
 <?php
-
 $lang = array(
-
-'ip_to_nation_module_name' => 'IP to Nation',
-
-'countryfile_missing' => 'Unable to find the file called country.php in your config folder.',
-
-'ip_search' => 'IP Address Search',
-
-'ip_address_located' => 'IP Address Located',
-
-'ip_address_not_located' => 'Unable to Locate IP Address',
-
-'ip_result' => 'The IP you submitted is from the following country:',
-
-'ip_not_valid' => 'The IP you submitted is not a valid IP address.',
-
-'ip_not_found' => 'There are no results for the IP you submitted.',
-
-'cache_full' => 'Cache is full and must be cleared manually to proceed.',
-
-'manage_banlist' => 'Manage Your Banned Country List',
-
-'ban_info' => 'Select the countries you wish to ban. When a country is banned, a person with a IP address corresponding to it will not be able to submit comments, or use your email/tell-a-friend form. They will still be able to view your site.',
-
-'banned_countries' => 'Banned countries',
-
-'banlist' => 'Nation Banlist',
-
-'banlist_updated' => 'Banlist Updated',
-
-'banlist_updated_desc' => 'The banlist has been successfully updated.',
-
-'update_ips' => 'Update IP database',
-
-'update_info' => 'Updates the IP and country code information. Data source: <a href="%s" title="Data Provider" rel="external">maxmind.com</a>.</em><em><i>The new data will automatically be downloaded and applied. This may take several minutes and increase load on your database.</i></em>',
-
-'last_update' => 'Last update: ',
-
-'ip_db_updating' => 'Downloading update ...',
-
-'ip_db_downloaded' => 'Downloaded IP database. Unpacking ...',
-
-'ip_db_unpacked' => 'Unpacked IP database. Inserting data ...',
-
-'ip_db_updated' => 'IP database update successful',
-
-'ip_db_failed' => 'IP databse update failed',
-
-'ip_db_connection_403' => '403 Connection Error, please wait 24 hours before attempting to retrieve database.',
-
-'ip_db_connection_error' => 'Unable to connect to data provider.',
-
-'btn_search' => 'Search',
-
-'btn_searching' => 'Searching...',
-
-'search_for_ip' => 'Search for an IP address',
-
-'search_for_ip_desc' => 'Enter an IP address to determine the country it is associated with.',
-
-'btn_save_banlist' => 'Save Banlist',
-
-'no_countries' => 'No <b>Countries</b> found.',
-
-''=>''
-);
-
-// EOF
+'ip_to_nation_module_name' => 
+'IP - Страна',
+'countryfile_missing' => 
+'Невозможно найти файл country.php в папке библиотек.',
+'ip_search' => 
+'Поиск по IP-адресу',
+'ip_address_located' => 
+'IP Address Located',
+'ip_address_not_located' => 
+'Unable to Locate IP Address',
+'ip_result' => 
+'Введенный IP относится к следующей стране:',
+'ip_not_valid' => 
+'Вы ввели ошибочный IP адрес.',
+'ip_not_found' => 
+'Нет результатов по введенному вами IP адресу.',
+'cache_full' => 
+'Кэш заполнен и должен быть сброшен вручную, чтобы продолжить.',
+'manage_banlist' => 
+'Управление списком заблокированных стран',
+'ban_info' => 
+'Выберите страны, которые Вы хотите заблокировать.  При блокировании страны любое лицо с IP-адресом этой страны не сможет оставлять комментарии, трекбэки, использовать форму отправки писем и функцию Расскажи другу.  Но они смогут просматривать Ваш сайт.',
+'banned_countries' => 
+'Banned countries',
+'banlist' => 
+'Список заблокированных стран',
+'banlist_updated' => 
+'Список заблокированных стран обновлен',
+'banlist_updated_desc' => 
+'The banlist has been successfully updated.',
+'update_ips' => 
+'Обновить БД IP адесов',
+'update_info' => 
+'Обновите IP и информацию о коде страны  используя последние данные с ip2nation.com ',
+'last_update' => 
+'Последнее обновление: ',
+'ip_db_updating' => 
+'Загрузка обновления ...',
+'ip_db_downloaded' => 
+'Скачана IP база данных. Распаковка ...',
+'ip_db_unpacked' => 
+'Распакована IP база данных. Вставка данных ...',
+'ip_db_updated' => 
+'Обновление БД IP адесов выполнено успешно',
+'ip_db_failed' => 
+'Не засчитаные символы в файле импорта',
+'ip_db_connection_403' => 
+'403 Ошибка соединения, пожалуйста, подождите 24 часа, прежде чем подключиться к базе данных.',
+'ip_db_connection_error' => 
+'Не удается подключиться к провайдеру данных.',
+'btn_search' => 
+'Search',
+'btn_searching' => 
+'Searching...',
+'search_for_ip' => 
+'Search for an IP address',
+'search_for_ip_desc' => 
+'Enter an IP address to determine the country it is associated with.',
+'btn_save_banlist' => 
+'Save Banlist',
+'no_countries' => 
+'No <b>Countries</b> found.',
+'' => 
+'',
+''=>'');

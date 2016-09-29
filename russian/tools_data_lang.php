@@ -1,70 +1,113 @@
 <?php
-
 $lang = array(
-
-
-/* SQL Manager */
-'sql_info'				=> 'SQL Info',
-'sql_utilities'			=> 'SQL Utilities',
-'database_type'			=> 'Database Type',
-'sql_version'			=> 'Database Version',
-'database_size'			=> 'Database Size',
-'database_uptime'		=> 'Database Uptime',
-'total_queries'			=> 'Total server queries since startup',
-'sql_status'			=> 'Status Info',
-'sql_system_vars'		=> 'System Variables',
-'sql_processlist'		=> 'Process List',
-'sql_query_form'		=> 'Database Query Form',
-'query_result'			=> 'Query Result',
-'query'					=> 'SQL Query',
-'total_results'			=> 'Total Results: %x',
-'total_affected_rows'	=> 'Total Affected Rows: ',
-'browse'				=> 'Browse',
-'tables'				=> 'tables',
-'table_name'			=> 'Table Name',
-'size'					=> 'Size',
-'type'					=> 'Type',
-'analyze'				=> 'Analyze Tables',
-'optimize'				=> 'Optimize SQL Tables',
-'repair'				=> 'Repair SQL Tables',
-'optimize_table'		=> 'Optimize selected tables',
-'repair_table'			=> 'Repair selected tables',
-'no_buttons_selected'	=> 'You must select the tables in which to perform this action',
-'sql_view_database'		=> 'Manage Database Tables',
-'sql_no_result'			=> 'The query you submitted did not produce any results',
-'sql_not_allowed'		=> 'Sorry, but that is not one of the allowed query types.',
-'sql_query_instructions'=> 'Use this form to submit an SQL query',
-'sql_query_debug'		=> 'Enable MySQL Error Output',
-'sql_good_query'		=> 'Your query was successful',
-
-/* Clear Caching */
-'cache_deleted'			=> 'Cache files have been deleted',
-
-/* Search and Replace */
-'site_preferences'		=> 'Site Preferences',
-'channel_entry_title'	=> 'Channel Entry Titles',
-'channel_fields'		=> 'Channel Fields',
-'templates'				=> 'In ALL Templates',
-'template_groups'		=> 'Template Groups',
-'rows_replaced'			=> 'Number of database records in which a replacement occurred:',
-'choose_below'			=> '(Choose from the following)',
-'if_replacing_templates'=> 'If you are replacing within templates, <a href="%x">synchronize with the database</a> first, or',
-'permanent_data_loss'	=> 'permanent data loss can occur!',
-
-/* Recount Stats */
-'recalculate' 			=> 'Recount Statistics',
-'do_recount'			=> 'Perform Recount',
-'records' 				=> 'Database Records',
-'source' 				=> 'Source',
-'recount_info' 			=> 'The links below allow you to update various statistics, like how many entries each member has submitted.',
-'members'				=> 'Members',
-'channel_titles'		=> 'Channel Entries',
-'site_statistics' 		=> 'Site Statistics',
-'forums'				=> 'Forums',
-'forum_topics'			=> 'Forum Topics',
-'recount_completed'		=> 'Recount Completed',
-'recount_prefs' 		=> 'Recount Preferences',
-''=>''
-);
-
-// EOF
+'sql_info' => 
+'Информация SQL',
+'sql_utilities' => 
+'SQL-утилиты',
+'database_type' => 
+'Тип базы данных',
+'sql_version' => 
+'Версия базы данных',
+'database_size' => 
+'Размер базы данных',
+'database_uptime' => 
+'Время безотказной работы базы данных',
+'total_queries' => 
+'Всего запросов сервера после запуска',
+'sql_status' => 
+'Информация о статусе',
+'sql_system_vars' => 
+'Системные переменные',
+'sql_processlist' => 
+'Список SQL-процессов ',
+'sql_query_form' => 
+'Форма запроса базы данных',
+'query_result' => 
+'Результат запроса',
+'query' => 
+'SQL-запрос',
+'total_results' => 
+'Всего результатов: %x',
+'total_affected_rows' => 
+'Всего обработано строк: ',
+'browse' => 
+'Просмотр',
+'tables' => 
+'таблицы',
+'table_name' => 
+'Имя таблицы',
+'size' => 
+'Размер',
+'type' => 
+'Тип',
+'analyze' => 
+'Анализировать таблицы',
+'optimize' => 
+'Оптимизировать SQL-таблицы',
+'repair' => 
+'Исправить SQL-таблицы',
+'optimize_table' => 
+'Оптимизировать выбранные таблицы',
+'repair_table' => 
+'Исправить выбранные таблицы',
+'no_buttons_selected' => 
+'Необходимо выбрать таблицы для выполнения в них этого действия',
+'sql_view_database' => 
+'Управление таблицами базы данных',
+'sql_no_result' => 
+'По Вашему запросу совпадений не обнаружено',
+'sql_not_allowed' => 
+'Извините, но этот тип запроса не разрешен.',
+'sql_query_instructions' => 
+'Используйте эту форму для выполнения SQL-запроса',
+'sql_query_debug' => 
+'Включить вывод ошибок MySQL',
+'sql_good_query' => 
+'Запрос выполнен успешно',
+'cache_deleted' => 
+'Кэш-файлы удалены',
+'site_preferences' => 
+'Настройки сайта',
+'channel_entry_title' => 
+'Заголовок записи канала',
+'channel_fields' => 
+'Поля канала:',
+'templates' => 
+'Во ВСЕХ шаблонах',
+'template_groups' => 
+'Группы шаблонов',
+'rows_replaced' => 
+'Число записей базы данных, в которых произведена замена:',
+'choose_below' => 
+'(Выберите один из следующих)',
+'if_replacing_templates' => 
+'Если вы заменяете что то в шаблонах, <a href=\\\"%x\\\">синхронизируйте его с БД</a> вопервых, или',
+'permanent_data_loss' => 
+'может произойти безвозвратная потеря данных!',
+'recalculate' => 
+'Обработать данные',
+'do_recount' => 
+'Выполнить пересчет',
+'records' => 
+'Записи Базы Данных',
+'source' => 
+'Источник',
+'recount_info' => 
+'Приведенные ниже ссылки позволяют обновлять различную статистику, например, определять количество статей, опубликованных каждым участником.',
+'members' => 
+'Участники',
+'channel_titles' => 
+'Записи каналов',
+'site_statistics' => 
+'Статистика сайта',
+'forums' => 
+'Форумов',
+'forum_topics' => 
+'Темы форума',
+'recount_completed' => 
+'Пересчет завершен',
+'recount_prefs' => 
+'Пересчитать настройки',
+'' => 
+'',
+''=>'');

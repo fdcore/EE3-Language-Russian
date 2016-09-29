@@ -1,403 +1,411 @@
 <?php
-
 $lang = array(
-
-//----------------------------
-// General word list
-//----------------------------
-
-'no' => 'No',
-
-'yes' => 'Yes',
-
-'on' => 'on',
-
-'off' => 'off',
-
-'first' => 'First',
-
-'prev' => 'Previous',
-
-'next' => 'Next',
-
-'last' => 'Last',
-
-'enabled' => 'enabled',
-
-'disabled' => 'disabled',
-
-'back' => 'Back',
-
-'submit' => 'Submit',
-
-'update' => 'Update',
-
-'thank_you' => 'Thank You!',
-
-'page' => 'Page',
-
-'of' => 'of',
-
-'by' => 'by',
-
-'at' => 'at',
-
-'dot' => 'dot',
-
-'and' => 'and',
-
-'or' => 'or',
-
-'id' => 'ID',
-
-'and_n_others' => 'and %d others...',
-
-'encoded_email' => '(JavaScript must be enabled to view this email address)',
-
-'search' => 'Search',
-
-'system_off_msg' => 'This site is currently inactive.',
-
-'not_authorized' => 'You are not authorized to perform this action',
-
-'auto_redirection' => 'You will be redirected automatically in %x seconds',
-
-'click_if_no_redirect' => 'Click here if you are not redirected automatically',
-
-'return_to_previous' => 'Return to Previous Page',
-
-'not_available' => 'Not available',
-
-'setting' => 'Setting',
-
-'preference' => 'Preference',
-
-'pag_first_link' => '&lsaquo; First',
-
-'pag_last_link' => 'Last &rsaquo;',
-
-'site_homepage' => 'Site Homepage',
-
-//----------------------------
-// Errors
-//----------------------------
-
-'error' => 'Error',
-
-'generic_fatal_error' => 'Something has gone wrong and this URL cannot be processed at this time.',
-
-'invalid_url' => 'The URL you submitted is not valid.',
-
-'submission_error' => 'The form you submitted contained the following errors',
-
-'general_error' => 'The following errors were encountered',
-
-'invalid_action' => 'The action you have requested is invalid.',
-
-'csrf_token_expired' => 'This form has expired. Please refresh and try again.',
-
-'current_password_required' => 'Your current password is required.',
-
-'current_password_incorrect' => 'Your current password was not submitted correctly.',
-
-'captcha_required' => 'You must submit the word that appears in the image',
-
-'captcha_incorrect' => 'You did not submit the word exactly as it appears in the image',
-
-'nonexistent_page' => 'The page you requested was not found',
-
-'unable_to_load_field_type' => 'Unable to load requested field type file:  %s.<br />
-Confirm the fieldtype file is located in the /system/user/addons/ directory',
-
-'unwritable_cache_folder' => 'Your cache folder does not have proper permissions.<br>
-To fix: Set the cache folder (/system/user/cache/) permissions to 777 (or equivalent for your server).',
-
-'unwritable_config_file' => 'Your configuration file does not have the proper permissions.<br>
-To fix: Set the config file (/system/user/config/config.php) permissions to 666 (or equivalent for your server).',
-
-'redirect_xss_fail' => 'The link you are being redirected to contained some
-potentially malicious or dangerous code. We recommend you hit the back button
-and email %s to report the link that generated this message.',
-
-'missing_mime_config' => 'Cannot import your mime-type whitelist: the file %s does not exist or cannot be read.',
-
-'version_mismatch' => 'Your ExpressionEngine installation&rsquo;s version (%s) is not consistent with the reported version (%s). <a href="https://ellislab.com/expressionengine/user-guide/installation/update.html" rel="external">Please update your installation of ExpressionEngine again</a>.',
-
-'theme_folder_wrong' => 'Your theme folder path is incorrect. Please go to <a href="%s">URL and Path Settings</a> and check the <mark>Themes Path</mark> and <mark>Themes URL</mark>.',
-
-'checksum_changed_warning' => 'One or more core files have been altered:',
-
-'checksum_changed_accept' => 'Accept Changes',
-
-'checksum_email_subject' => 'A core file was modified on your site.',
-
-'checksum_email_message' => 'ExpressionEngine has detected the modification of a core file on: {url}
+'no' => 
+'Нет',
+'yes' => 
+'Да',
+'on' => 
+'вкл.',
+'off' => 
+'выкл.',
+'first' => 
+'Первая',
+'prev' => 
+'Previous',
+'next' => 
+'Next',
+'last' => 
+'Последняя',
+'enabled' => 
+'включено',
+'disabled' => 
+'отключено',
+'back' => 
+'Вернуться',
+'submit' => 
+'Отправить',
+'update' => 
+'Обновить',
+'thank_you' => 
+'Спасибо!',
+'page' => 
+'Страница',
+'of' => 
+'из',
+'by' => 
+'от',
+'at' => 
+'собака',
+'dot' => 
+'точка',
+'and' => 
+'и',
+'or' => 
+'или',
+'id' => 
+'ID',
+'and_n_others' => 
+'and %d others...',
+'encoded_email' => 
+'(JavaScript должен быть включён для просмотра email адреса)',
+'search' => 
+'Найти',
+'system_off_msg' => 
+'Сообщение при отключенной системе',
+'not_authorized' => 
+'Вы не авторизованы для выполнения этой операции',
+'auto_redirection' => 
+'Вы будете автоматически переадресованы через %x секунд',
+'click_if_no_redirect' => 
+'Если автоматическая переадресация не происходит, нажмите на ссылку',
+'return_to_previous' => 
+'Возврат к предыдущей странице',
+'not_available' => 
+'Не доступно',
+'setting' => 
+'Настройка',
+'preference' => 
+'Настройки',
+'pag_first_link' => 
+'&lsaquo; Первая',
+'pag_last_link' => 
+'Последняя &rsaquo;',
+'site_homepage' => 
+'Site Homepage',
+'error' => 
+'Ошибка',
+'generic_fatal_error' => 
+'Что пошло не так, и это URL не может быть обработан в настоящее время.',
+'invalid_url' => 
+'Указанный Вами адрес неверен.',
+'submission_error' => 
+'Отправленная Вами форма содержит следующие ошибки:',
+'general_error' => 
+'Обнаружены следующие ошибки:',
+'invalid_action' => 
+'Запрошенное Вами действие невыполнимо.',
+'csrf_token_expired' => 
+'Эта форма устарела. Пожалуйста обновите страницу и попробуйте ещё раз.',
+'current_password_required' => 
+'Требуется указать ваш текущий пароль.',
+'current_password_incorrect' => 
+'Текущий пароль был указан неверно.',
+'captcha_required' => 
+'Введите изображенное на картинке слово',
+'captcha_incorrect' => 
+'Изображенное на картинке слово необходимо повторить правильно',
+'nonexistent_page' => 
+'Запрошенная страница не найдена',
+'unable_to_load_field_type' => 
+'Не удается загрузить требуемый файл типа полей: <br />% s. Подтвердите что файл типа полей находится в каталоге ExpressionEngine',
+'unwritable_cache_folder' => 
+'Ваш папка кэша не имеет соответствующих разрешений.<br>
+Чтобы исправить: Установите для папки кэша (/expressionengine/cache/) права доступа на 777 (или эквивалент для вашего сервера).',
+'unwritable_config_file' => 
+'Ваш файл конфигурации не имеет соответствующих разрешений.<br>
+Чтобы исправить: Установите для файла настройки (/expressionengine/config/config.php) права доступа на 666 (или эквивалент для вашего сервера).',
+'redirect_xss_fail' => 
+'Ссылка, по которой вы будете перенаправлены, содержит некторый
+потенциально вредоносный или опасный код. Мы рекомендуем вам нажать конопу Назад
+и отправить электронным письмом автоматически сгенерированный отчет: %s.',
+'missing_mime_config' => 
+'Cannot import your mime-type whitelist: the file %s does not exist or cannot be read.',
+'version_mismatch' => 
+'Your ExpressionEngine installation&rsquo;s version (%s) is not consistent with the reported version (%s). <a href=\"https://ellislab.com/expressionengine/user-guide/installation/update.html\" rel=\"external\">Please update your installation of ExpressionEngine again</a>.',
+'theme_folder_wrong' => 
+'Your theme folder path is incorrect. Please go to <a href=\"%s\">URL and Path Settings</a> and check the <mark>Themes Path</mark> and <mark>Themes URL</mark>.',
+'checksum_changed_warning' => 
+'One or more core files have been altered:',
+'checksum_changed_accept' => 
+'Accept Changes',
+'checksum_email_subject' => 
+'A core file was modified on your site.',
+'checksum_email_message' => 
+'ExpressionEngine has detected the modification of a core file on: {url}
 
 The following files are affected:
 {changed}
 
 If you made these changes, please accept the modifications on the control panel homepage.  If you did not alter these files it may indicate a hacking attempt. Check the files for any suspicious contents (JavaScript or iFrames) and contact ExpressionEngine support:
 https://support.ellislab.com/',
-
-'new_version_error' => 'An unexpected error occurred attempting to download the current ExpressionEngine version number.  Please visit your <a href="%s" title="download account" rel="external">Download Account</a> to verify you are on the current version.  If this error persists, please contact your system administrator',
-
-'file_not_found' => 'File %s does not exist.',
-
-//----------------------------
-// Member Groups
-//----------------------------
-
-'banned' => 'Banned',
-
-'guests' => 'Guests',
-
-'members' => 'Members',
-
-'pending' => 'Pending',
-
-'super_admins' => 'Super Admins',
-
-
-//----------------------------
-// Template.php
-//----------------------------
-
-'error_tag_syntax' => 'The following tag has a syntax error:',
-
-'error_fix_syntax' => 'Please correct the syntax in your template.',
-
-'error_tag_module_processing' => 'The following tag cannot be processed:',
-
-'error_fix_module_processing' => 'Please check that the \'%x\' module is installed and that \'%y\' is an available method of the module',
-
-'template_loop' => 'You have caused a template loop due to improperly nested sub-templates (\'%s\' recursively called)',
-
-'template_load_order' => 'Template load order',
-
-'error_multiple_layouts' => 'Multiple Layouts found, please ensure you only have one layout tag per template',
-
-'error_layout_too_late' => 'Plugin or module tag found before layout declaration. Please move the layout tag to the top of your template.',
-
-'error_invalid_conditional' => 'You have an invalid conditional in your template. Please review your conditionals for an unclosed string, invalid operators, a missing }, or a missing {/if}.',
-
-'layout_contents_reserved' => 'The name "contents" is reserved for the template data and cannot be used as a layout variable (i.e. {layout:set name="contents"} or {layout="foo/bar" contents=""}).',
-
-//----------------------------
-// Email
-//----------------------------
-
-'forgotten_email_sent' => 'If this email address is associated with an account, instructions for resetting your password have just been emailed to you.',
-
-'error_sending_email' => 'Unable to send email at this time.',
-
-'no_email_found' => 'The email address you submitted was not found in the database.',
-
-'password_reset_flood_lock' => 'You have tried to reset your password too many times today. Please check your inbox and spam folders for previous requests, or contact the site administrator.',
-
-'your_new_login_info' => 'Login information',
-
-'password_has_been_reset' => 'Your password was reset and a new one has been emailed to you.',
-
-//----------------------------
-// Date
-//----------------------------
-
-'singular' => 'one',
-
-'less_than' => 'less than',
-
-'about' => 'about',
-
-'past' => '%s ago',
-
-'future' => 'in %s',
-
-'ago' => '%x ago',
-
-'year' => 'year',
-
-'years' => 'years',
-
-'month' => 'month',
-
-'months' => 'months',
-
-'fortnight' => 'fortnight',
-
-'fortnights' => 'fortnights',
-
-'week' => 'week',
-
-'weeks' => 'weeks',
-
-'day' => 'day',
-
-'days' => 'days',
-
-'hour' => 'hour',
-
-'hours' => 'hours',
-
-'minute' => 'minute',
-
-'minutes' => 'minutes',
-
-'second' => 'second',
-
-'seconds' => 'seconds',
-
-'am' => 'am',
-
-'pm' => 'pm',
-
-'AM' => 'AM',
-
-'PM' => 'PM',
-
-'Sun' => 'Sun',
-
-'Mon' => 'Mon',
-
-'Tue' => 'Tue',
-
-'Wed' => 'Wed',
-
-'Thu' => 'Thu',
-
-'Fri' => 'Fri',
-
-'Sat' => 'Sat',
-
-'Su' => 'S',
-
-'Mo' => 'M',
-
-'Tu' => 'T',
-
-'We' => 'W',
-
-'Th' => 'T',
-
-'Fr' => 'F',
-
-'Sa' => 'S',
-
-'Sunday' => 'Sunday',
-
-'Monday' => 'Monday',
-
-'Tuesday' => 'Tuesday',
-
-'Wednesday' => 'Wednesday',
-
-'Thursday' => 'Thursday',
-
-'Friday' => 'Friday',
-
-'Saturday' => 'Saturday',
-
-
-'Jan' => 'Jan',
-
-'Feb' => 'Feb',
-
-'Mar' => 'Mar',
-
-'Apr' => 'Apr',
-
-'May' => 'May',
-
-'Jun' => 'Jun',
-
-'Jul' => 'Jul',
-
-'Aug' => 'Aug',
-
-'Sep' => 'Sep',
-
-'Oct' => 'Oct',
-
-'Nov' => 'Nov',
-
-'Dec' => 'Dec',
-
-'January' => 'January',
-
-'February' => 'February',
-
-'March' => 'March',
-
-'April' => 'April',
-
-'May_l' => 'May',
-
-'June' => 'June',
-
-'July' => 'July',
-
-'August' => 'August',
-
-'September' => 'September',
-
-'October' => 'October',
-
-'November' => 'November',
-
-'December' => 'December',
-
-
-'UM12'		=>	'(UTC -12:00) Baker/Howland Island',
-'UM11'		=>	'(UTC -11:00) Niue',
-'UM10'		=>	'(UTC -10:00) Hawaii-Aleutian Standard Time, Cook Islands, Tahiti',
-'UM95'		=>	'(UTC -9:30) Marquesas Islands',
-'UM9'		=>	'(UTC -9:00) Alaska Standard Time, Gambier Islands',
-'UM8'		=>	'(UTC -8:00) Pacific Standard Time, Clipperton Island',
-'UM7'		=>	'(UTC -7:00) Mountain Standard Time',
-'UM6'		=>	'(UTC -6:00) Central Standard Time',
-'UM5'		=>	'(UTC -5:00) Eastern Standard Time, Western Caribbean Standard Time',
-'UM45'		=>	'(UTC -4:30) Venezuelan Standard Time',
-'UM4'		=>	'(UTC -4:00) Atlantic Standard Time, Eastern Caribbean Standard Time',
-'UM35'		=>	'(UTC -3:30) Newfoundland Standard Time',
-'UM3'		=>	'(UTC -3:00) Argentina, Brazil, French Guiana, Uruguay',
-'UM2'		=>	'(UTC -2:00) South Georgia/South Sandwich Islands',
-'UM1'		=>	'(UTC -1:00) Azores, Cape Verde Islands',
-'UTC'		=>	'(UTC) Greenwich Mean Time, Western European Time',
-'UP1'		=>	'(UTC +1:00) Central European Time, West Africa Time',
-'UP2'		=>	'(UTC +2:00) Central Africa Time, Eastern European Time, Kaliningrad Time',
-'UP3'		=>	'(UTC +3:00) East Africa Time, Arabia Standard Time',
-'UP35'		=>	'(UTC +3:30) Iran Standard Time',
-'UP4'		=>	'(UTC +4:00) Moscow Time, Azerbaijan Standard Time',
-'UP45'		=>	'(UTC +4:30) Afghanistan',
-'UP5'		=>	'(UTC +5:00) Pakistan Standard Time, Yekaterinburg Time',
-'UP55'		=>	'(UTC +5:30) Indian Standard Time, Sri Lanka Time',
-'UP575'		=>	'(UTC +5:45) Nepal Time',
-'UP6'		=>	'(UTC +6:00) Bangladesh Standard Time, Bhutan Time, Omsk Time',
-'UP65'		=>	'(UTC +6:30) Cocos Islands, Myanmar',
-'UP7'		=>	'(UTC +7:00) Krasnoyarsk Time, Cambodia, Laos, Thailand, Vietnam',
-'UP8'		=>	'(UTC +8:00) Australian Western Standard Time, Beijing Time, Irkutsk Time',
-'UP875'		=>	'(UTC +8:45) Australian Central Western Standard Time',
-'UP9'		=>	'(UTC +9:00) Japan Standard Time, Korea Standard Time, Yakutsk Time',
-'UP95'		=>	'(UTC +9:30) Australian Central Standard Time',
-'UP10'		=>	'(UTC +10:00) Australian Eastern Standard Time, Vladivostok Time',
-'UP105'		=>	'(UTC +10:30) Lord Howe Island',
-'UP11'		=>	'(UTC +11:00) Magadan Time, Solomon Islands, Vanuatu',
-'UP115'		=>	'(UTC +11:30) Norfolk Island',
-'UP12'		=>	'(UTC +12:00) Fiji, Gilbert Islands, Kamchatka Time, New Zealand Standard Time',
-'UP1275'	=>	'(UTC +12:45) Chatham Islands Standard Time',
-'UP13'		=>	'(UTC +13:00) Samoa Time Zone, Phoenix Islands Time, Tonga',
-'UP14'		=>	'(UTC +14:00) Line Islands',
-
-"select_timezone" => "Select Timezone",
-
-"no_timezones" => "No Timezones",
-
-'invalid_timezone' => "The timezone you submitted is invalid.",
-
-'invalid_date_format' => "The date format you submitted is invalid.",
-
-'curl_not_installed' => 'cURL is not installed on your server',
-
-// IGNORE
+'new_version_error' => 
+'An unexpected error occurred attempting to download the current ExpressionEngine version number.  Please visit your <a href=\"%s\" title=\"download account\" rel=\"external\">Download Account</a> to verify you are on the current version.  If this error persists, please contact your system administrator',
+'file_not_found' => 
+'File %s does not exist.',
+'banned' => 
+'Заблокированные',
+'guests' => 
+'Гости',
+'members' => 
+'Участники',
+'pending' => 
+'Ожидающие',
+'super_admins' => 
+'Администраторы',
+'error_tag_syntax' => 
+'Синтаксическая ошибка в теге:',
+'error_fix_syntax' => 
+'Исправьте синтаксические ошибки в шаблоне.',
+'error_tag_module_processing' => 
+'Следующий тег не может быть обработан:',
+'error_fix_module_processing' => 
+'Пожалуйста, проверьте, что модуль \'%x\' установлен и что \'%y\' является доступным методом модуля',
+'template_loop' => 
+'Неверное использование вложенных суб-шаблонов порождает эффект бесконечной петли',
+'template_load_order' => 
+'Порядок загрузки шаблонов',
+'error_multiple_layouts' => 
+'Найдено несколько макетов, пожалуйста используйте только один макет в шаблоне',
+'error_layout_too_late' => 
+'Тэг плагина или модуля был найден до объявления макета. Пожалуйста, переместите тэг макета в верхнюю часть шаблона.',
+'error_invalid_conditional' => 
+'У вас есть недопустимое условие в шаблоне. Пожалуйста, проверьте: условные операторы для незакрытой строки, недопустимые операторы, закрывающие скобки }, или пропущенные закрывающие логические условия {/if}.',
+'layout_contents_reserved' => 
+'Имя шаблона \"contents\" зарезервирована переменная, которая не может быть использована в качестве пользовательской переменной в шаблоне (на пример: {layout:set name=\"contents\"} или {layout=\"foo/bar\" contents=\"\"}).',
+'forgotten_email_sent' => 
+'Вам отправлена инструкция по изменению пароля.',
+'error_sending_email' => 
+'Отправить письмо сейчас невозможно.',
+'no_email_found' => 
+'Указанный Вами адрес E-mail в базе данных не найден.',
+'password_reset_flood_lock' => 
+'You have tried to reset your password too many times today. Please check your inbox and spam folders for previous requests, or contact the site administrator.',
+'your_new_login_info' => 
+'Информация для входа в систему',
+'password_has_been_reset' => 
+'Ваш пароль изменен, новый пароль выслан на Ваш адрес E-mail.',
+'singular' => 
+'one',
+'less_than' => 
+'less than',
+'about' => 
+'about',
+'past' => 
+'%s ago',
+'future' => 
+'in %s',
+'ago' => 
+'%x назад',
+'year' => 
+'год',
+'years' => 
+'г.',
+'month' => 
+'месяц',
+'months' => 
+'мес.',
+'fortnight' => 
+'две недели',
+'fortnights' => 
+'полмесяца',
+'week' => 
+'неделя',
+'weeks' => 
+'нед.',
+'day' => 
+'день',
+'days' => 
+'дн.',
+'hour' => 
+'час',
+'hours' => 
+'час.',
+'minute' => 
+'минута',
+'minutes' => 
+'мин.',
+'second' => 
+'секунда',
+'seconds' => 
+'сек.',
+'am' => 
+'a.m.',
+'pm' => 
+'p.m.',
+'AM' => 
+'A.M.',
+'PM' => 
+'P.M.',
+'Sun' => 
+'Вс',
+'Mon' => 
+'Пн',
+'Tue' => 
+'Вт',
+'Wed' => 
+'Ср',
+'Thu' => 
+'Чт',
+'Fri' => 
+'Пт',
+'Sat' => 
+'Сб',
+'Su' => 
+'В',
+'Mo' => 
+'П',
+'Tu' => 
+'В',
+'We' => 
+'С',
+'Th' => 
+'Ч',
+'Fr' => 
+'П',
+'Sa' => 
+'С',
+'Sunday' => 
+'Воскресенье',
+'Monday' => 
+'Понедельник',
+'Tuesday' => 
+'Вторник',
+'Wednesday' => 
+'Среда',
+'Thursday' => 
+'Четверг',
+'Friday' => 
+'Пятница',
+'Saturday' => 
+'Суббота',
+'Jan' => 
+'Янв.',
+'Feb' => 
+'Фев.',
+'Mar' => 
+'Мар.',
+'Apr' => 
+'Апр.',
+'May' => 
+'Май',
+'Jun' => 
+'Июн.',
+'Jul' => 
+'Июл.',
+'Aug' => 
+'Авг.',
+'Sep' => 
+'Сен.',
+'Oct' => 
+'Окт.',
+'Nov' => 
+'Ноя.',
+'Dec' => 
+'Дек.',
+'January' => 
+'Январь',
+'February' => 
+'Февраль',
+'March' => 
+'Март',
+'April' => 
+'Апрель',
+'May_l' => 
+'Май',
+'June' => 
+'Июнь',
+'July' => 
+'Июль',
+'August' => 
+'Август',
+'September' => 
+'Сентябрь',
+'October' => 
+'Октябрь',
+'November' => 
+'Ноябрь',
+'December' => 
+'Декабрь',
+'UM12' => 
+'(UTC -12:00) о. Бейкер / о. Хауленд',
+'UM11' => 
+'(UTC -11:00) Часовой пояс Самоа, о. Ниуэ',
+'UM10' => 
+'(UTC -10:00) Стандартное время Гавай и Алеутских о., о. Кука, Таити',
+'UM95' => 
+'(UTC -9:30) Маркизские о.',
+'UM9' => 
+'(UTC -9:00) Стандартное время Аляски, о. Гамбье',
+'UM8' => 
+'(UTC -8:00) Тихоокеанское время, о. Клиппертон',
+'UM7' => 
+'(UTC -7:00) Горное время',
+'UM6' => 
+'(UTC -6:00) Центральное время',
+'UM5' => 
+'(UTC -5:00) Североамериканское восточное время, Стандартное время Западных Кариб',
+'UM45' => 
+'(UTC -4:30) Стандартное время Венесуэлы',
+'UM4' => 
+'(UTC -4:00) Атлантическое стандартное время, Стандартное время Восточных Кариб',
+'UM35' => 
+'(UTC -3:30) Стандартное время Ньюфаундленда',
+'UM3' => 
+'(UTC -3:00) Аргентина, Бразилия, Французская Гвиана, Уругвай',
+'UM2' => 
+'(UTC -2:00) о. Южная Георгия / Южные Сандвичевы о.',
+'UM1' => 
+'(UTC -1:00) Азорские о., о. Зеленого Мыса',
+'UTC' => 
+'(UTC) Стандартное времени по Гринвичу, Западноевропейское время',
+'UP1' => 
+'(UTC +1:00) Центральноевропейское время, Западноафриканское стандартное время',
+'UP2' => 
+'(UTC +2:00) Центральноафриканское стандартное время, Восточноевропейское время, Калининградское время',
+'UP3' => 
+'(UTC +3:00) Московское время, Восточно-Африканское время',
+'UP35' => 
+'(UTC +3:30) Стандартное время Ирана',
+'UP4' => 
+'(UTC +4:00) Стандартное время Азербайджана, Самарское время',
+'UP45' => 
+'(UTC +4:30) Афганистан',
+'UP5' => 
+'(UTC +5:00) Стандартное время Пакистана, Екатеринбургское время',
+'UP55' => 
+'(UTC +5:30) Стандартное время Индии, Стандартное время Шри-Ланки',
+'UP575' => 
+'(UTC +5:45) Стандартное время Непала',
+'UP6' => 
+'(UTC +6:00) Стандартное время Бангладеша, Стандартное время Бутана, Омское время',
+'UP65' => 
+'(UTC +6:30) Кокосовые о., Мьянма',
+'UP7' => 
+'(UTC +7:00) Красноярское время, Камбоджа, Лаос, Таиланд, Вьетнам',
+'UP8' => 
+'(UTC +8:00) Стандартное время западной Австралии, Стандартное время Китая, Иркутское время',
+'UP875' => 
+'(UTC +8:45) Стандартное время центрально-западной Австралии',
+'UP9' => 
+'(UTC +9:00) Стандартное время Японии, Стандартное время Кореи, Якутское время',
+'UP95' => 
+'(UTC +9:30) Стандартное время центральной Австралии',
+'UP10' => 
+'(UTC +10:00) Стандартное время восточной Австралии, Владивостокское время',
+'UP105' => 
+'(UTC +10:30) о. Лорд-Хау',
+'UP11' => 
+'(UTC +11:00) Магаданское время, Соломоновы о., Вануату',
+'UP115' => 
+'(UTC +11:30) о. Норфолк',
+'UP12' => 
+'(UTC +12:00) Фиджи, о. Гилберта, Камчатское время, Стандартное время Новой Зеландии',
+'UP1275' => 
+'(UTC +12:45) Стандартное время архипелага Чатем',
+'UP13' => 
+'(UTC +13:00) Стандартное время островов Феникса, Тонга',
+'UP14' => 
+'(UTC +14:00) Стандартное время островов Лайна',
+'select_timezone' => 
+'Выберите временную зону ',
+'no_timezones' => 
+'Нет временной зоны',
+'invalid_timezone' => 
+'The timezone you submitted is invalid.',
+'invalid_date_format' => 
+'The date format you submitted is invalid.',
+'curl_not_installed' => 
+'cURL is not installed on your server',
+'' => 
+'',
 ''=>'');
-
-// EOF

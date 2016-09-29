@@ -1,251 +1,243 @@
 <?php
-
 $lang = array(
-
-'storage_status'=>
-'You have %x out of a total %y messages allowed.',
-
-'storage_percentage' => 'Your folders are %x% full',
-
-'messages_reply_all' => 'Reply All',
-
-'edit_list' => 'Edit List',
-
-'no_more_attachments' => 'You are not permitted to add any more attachments.',
-
-'click_preview_to_attach' => 'To attach more than one item click preview after choosing a file',
-
-'view_folder' => 'View Folder',
-
-'view_message' => 'View Message',
-
-'compose_message' => 'Compose New Message',
-
-'new_message' => 'New Message',
-
-'private_messages' => 'Private Messages',
-
-'private_message' => 'Private Message',
-
-'draft_messages' => 'Draft Messages',
-
-'deleted_messages' => 'Trash',
-
-'erase_messages' => 'Empty Trash',
-
-'erase_popup' => 'Are you sure you want to erase all deleted messages?',
-
-'track_messages' => 'Track Messages',
-
-'edit_folders' => 'Edit Message Folders',
-
-'folder_directions' => 'To delete an item submit the form with the folder name blank. Deleting a folder will delete that folder\'s messages.',
-
-'folder_required' => '(Required)',
-
-'missing_required_field' => 'Missing Required Field',
-
-'folder_name' => 'Folder Name',
-
-'buddy_list' => 'Buddy List',
-
-'blocked_list' => 'Blocked List',
-
-'folder_page' => 'Page',
-
-'message_subject' => 'Subject',
-
-'message_sender' => 'Sender',
-
-'message_date' => 'Date',
-
-'of' => 'of',
-
-'unlimited_messages' => 'Unlimited',
-
-'no_messages' => 'No Messages',
-
-'messages_percent_full' => 'Your folders are {lang:usage_percent}% full',
-
-'messages_folder' => 'Private Messages Folder',
-
-'messages_delete' => 'Delete',
-
-'messages_move' => 'Move',
-
-'messages_copy' => 'Copy',
-
-'messages_allowed_total' => 'You have {lang:total_messages} out of a total {lang:max_messages} messages allowed.',
-
-'switch_folder' => 'Switch Folder: ',
-
-'zero_percent' => '0%',
-
-'sent_copy' => 'Store a copy in the Sent messages folder?',
-
-'track_message' => 'Track Message',
-
-'hide_cc' => 'Hide CC from Recipients',
-
-'preview_message' => 'Preview Message',
-
-'guided' => 'Guided',
-
-'normal' => 'Normal',
-
-'send_message' => 'Send Message',
-
-'fifty_percent' => '50%',
-
-'hundred_percent' => '100%',
-
-'choose_folder' => 'Choose Folder',
-
-'close_window' => 'Close Window',
-
-'search_results' => 'Search Results',
-
-'message_options' => 'Options',
-
-'cc' => 'CC',
-
-'new_search' => 'Perform New Search?',
-
-'attachments' => 'Attachments',
-
-'max_size' => 'Max Size:',
-
-'message_recipients' => 'Recipients',
-
-'message' => 'Message',
-
-'smileys' => 'Smileys',
-
-'empty_recipients_field' => 'Message must contain at least one recipient.',
-
-'empty_subject_field' => 'A subject is required for all messages',
-
-'empty_body_field' => 'Your message field is empty.  You did want to say something, right?',
-
-'sending_limit_warning' => 'You have surpassed the Private Message sending limit for a 24 hour period.',
-
-'storage_limit_warning' => 'You have reached your storage limit for Private Messages.',
-
-'message_too_large' => 'Message is larger than the maximum size of %max%',
-
-'characters' => 'Characters',
-
-'unable_to_recieve_attach' => 'Unable to Receive Attachment',
-
-'attach_too_large' => 'The size of your attachments has exceeded the allowed limit.',
-
-'too_many_attachments' => 'Too many attachments have been uploaded into the PM system.  Please contact site administrator.',
-
-'allowed_mimes' => 'Allowed Filetypes:',
-
-'file_name' => 'File Name',
-
-'file_size' => 'File Size',
-
-'remove' => 'Remove',
-
-'current_attachments' => 'Current Attachment',
-
-'file_size_unit' => 'KB',
-
-'draft_message' => 'Save as Draft',
-
-'messages_reply' => 'Reply',
-
-'messages_forward' => 'Forward',
-
-'invalid_message' => 'Invalid Message',
-
-'reply_prefix' => 'RE: ',
-
-'forward_prefix' => 'FWD: ',
-
-'forward_from' => 'From: ',
-
-'forward_date' => 'Date: ',
-
-'forward_subject' => 'Subject: ',
-
-'forward_header' => '---- Forwarded message ----',
-
-'member_name' => 'Member Name',
-
-'member_usernames' => 'Member Screen Name',
-
-'member_description' => 'Description',
-
-'empty_list' => 'List is Empty',
-
-'add_member' => 'Add Member',
-
-'any' => 'Any',
-
-'member_search' => 'Member Search',
-
-'insert_member_instructions' => 'Click member name to select it',
-
-'description_charlimit' => '(less than 50 characters)',
-
-'folders_updated' => 'Folders Updated',
-
-'blocked_recipients' => 'There were members listed in your Recipients or CC fields that are unable to receive
-Private Messages.  They have been removed by the system and you may try sending again.',
-
-'overflow_recipients' => 'The inboxes for the following members are currently full, and to send this message
-you must remove them from your Recipients or CC fields: %overflow_names%',
-
-'add_buddy' => 'Add to Buddies',
-
-'add_block' => 'Add to Blocked',
-
-'invalid_username' => 'One or more of the Screen Names submitted were invalid.',
-
-'delete_selected' => 'Delete selected message(s)',
-
-'move_selected' => 'Move selected message(s)',
-
-'copy_selected' => 'Copy selected message(s)',
-
-'no_search_results' => 'Your search resulted in no matches',
-
-'bulletin_board' => 'Bulletin Board',
-
-'message_no_bulletins' => 'No Bulletins',
-
-'send_bulletin' => 'Send Bulletin',
-
-'bulletin_expires' => 'Bulletin Expires',
-
-'bulletin_message' => 'Bulletin Message',
-
-'bulletin_date' => 'Bulletin Date',
-
-'bulletin_success' => 'Bulletin Successfully Posted',
-
-'member_group' => 'Member Group',
-
-'delete_bulletin' => 'Delete Bulletin',
-
-'delete_bulletin_popup' => 'Are you sure you want to delete this bulletin?',
-
-'bulletin_deleted' => 'Bulletin Deleted',
-
-'messsage_already_sent' => 'Your Message Has Already Been Sent',
-
-'waiting_period_not_reached' => 'To prevent spam there is a %time% hour waiting period before new members are allowed to send Private Messages.',
-
-'send_throttle' => 'You are only allowed to send a Private Message every %x seconds',
-
-'duplicate_message_sent' => 'You have sent the exact same message more than once.',
-
-
-
-''=>''
-);
-
-// EOF
+'storage_status' => 
+'У Вас %x из всего разрешенных %y сообщений.',
+'storage_percentage' => 
+'Ваши папки заполнены на %x%',
+'messages_reply_all' => 
+'Ответить всем',
+'edit_list' => 
+'Редактировать список',
+'no_more_attachments' => 
+'Вы не можете добавить больше приложений.',
+'click_preview_to_attach' => 
+'Для добавления нескольких приложений нажмите на предпросмотр и затем выберите новый файл',
+'view_folder' => 
+'Просмотр папки',
+'view_message' => 
+'Личное сообщение &#8211; Просмотр сообщения',
+'compose_message' => 
+'Создать новое сообщение',
+'new_message' => 
+'Новое сообщение',
+'private_messages' => 
+'Личные сообщения',
+'private_message' => 
+'Личное сообщение',
+'draft_messages' => 
+'Черновики',
+'deleted_messages' => 
+'Корзина',
+'erase_messages' => 
+'Очистить корзину',
+'erase_popup' => 
+'Подтверждаете удаление всех стертых сообщений?',
+'track_messages' => 
+'Следить за сообщениями',
+'edit_folders' => 
+'Редактировать папки сообщений',
+'folder_directions' => 
+'Для удаления папки отправьте форму с незаполненным названием папки. Удаление папки приведет и к удалению всех сообщений в ней.',
+'folder_required' => 
+'(Обязательное)',
+'missing_required_field' => 
+'Пропущено обязательное для заполнения поле',
+'folder_name' => 
+'Название папки',
+'buddy_list' => 
+'Список друзей',
+'blocked_list' => 
+'Список заблокированных',
+'folder_page' => 
+'Страница',
+'message_subject' => 
+'Тема',
+'message_sender' => 
+'Отправитель',
+'message_date' => 
+'Дата',
+'of' => 
+'из',
+'unlimited_messages' => 
+'Нет ограничения',
+'no_messages' => 
+'Нет сообщений',
+'messages_percent_full' => 
+'Ваши папки заполнены на {lang:usage_percent}%',
+'messages_folder' => 
+'Папка личных сообщений',
+'messages_delete' => 
+'Удалить',
+'messages_move' => 
+'Переместить',
+'messages_copy' => 
+'Копировать',
+'messages_allowed_total' => 
+'У Вас {lang:total_messages} из {lang:max_messages} разрешенных сообщений.',
+'switch_folder' => 
+'Перейти к папке: ',
+'zero_percent' => 
+'0%',
+'sent_copy' => 
+'Сохранить копию в папке отправленных сообщений?',
+'track_message' => 
+'Следить за сообщением',
+'hide_cc' => 
+'Не показывать получателям других получателей этого сообщения',
+'preview_message' => 
+'Личное сообщение &#8211; Пред. просмотр',
+'guided' => 
+'С пояснениями',
+'normal' => 
+'Обычный',
+'send_message' => 
+'Отправить сообщение',
+'fifty_percent' => 
+'50%',
+'hundred_percent' => 
+'100%',
+'choose_folder' => 
+'Выбрать папку',
+'close_window' => 
+'Закрыть окно',
+'search_results' => 
+'Результаты поиска',
+'message_options' => 
+'Опции',
+'cc' => 
+'Копия',
+'new_search' => 
+'Выполнить новый поиск?',
+'attachments' => 
+'Приложения',
+'max_size' => 
+'Макс. размер файла (в байтах)',
+'message_recipients' => 
+'Получатели',
+'message' => 
+'Сообщение',
+'smileys' => 
+'Смайлы',
+'empty_recipients_field' => 
+'Сообщение должно содержать по крайней мере одного получателя.',
+'empty_subject_field' => 
+'Для всех сообщений необходимо указывать тему',
+'empty_body_field' => 
+'Поле Вашего сообщения пустое.  Вы ведь хотите что-то сказать, не так ли?',
+'sending_limit_warning' => 
+'Вы превысили лимит отправки личных сообщений, выделяемый на 24 часа.',
+'storage_limit_warning' => 
+'Вы достигли лимита хранения личных сообщений.',
+'message_too_large' => 
+'Сообщение превышает макс. размер %max%',
+'characters' => 
+'Символы',
+'unable_to_recieve_attach' => 
+'Невозможно получить приложение',
+'attach_too_large' => 
+'Размер приложений превысил допустимый предел.',
+'too_many_attachments' => 
+'В систему личных сообщений было загружено слишком много вложений.  Обратитесь к администратору сайта.',
+'allowed_mimes' => 
+'Разрешенные типы файлов:',
+'file_name' => 
+'Имя файла',
+'file_size' => 
+'Размер файла',
+'remove' => 
+'Удалить',
+'current_attachments' => 
+'Добавленное приложение',
+'file_size_unit' => 
+'КБ',
+'draft_message' => 
+'Сохранить как черновик',
+'messages_reply' => 
+'Ответить',
+'messages_forward' => 
+'Переслать',
+'invalid_message' => 
+'Неправильное сообщение',
+'reply_prefix' => 
+'Касательно: ',
+'forward_prefix' => 
+'Переслать: ',
+'forward_from' => 
+'От:',
+'forward_date' => 
+'Дата:',
+'forward_subject' => 
+'Кому:',
+'forward_header' => 
+'---- Переданное сообщение ----',
+'member_name' => 
+'Имя участника',
+'member_usernames' => 
+'Псевдоним участника',
+'member_description' => 
+'Описание',
+'empty_list' => 
+'Личное сообщение &#8211; Пустой список',
+'add_member' => 
+'Добавить участника',
+'any' => 
+'Все',
+'member_search' => 
+'Поиск участника',
+'insert_member_instructions' => 
+'Нажмите на имя участника, чтобы выбрать его',
+'description_charlimit' => 
+'(менее 50 символов)',
+'folders_updated' => 
+'Папки обновлены',
+'blocked_recipients' => 
+'В полях получателей и копий были указаны участники, которые не могут получать личные сообщения.  Они были удалены системой, но Вы можете попробовать послать им сообщение снова.',
+'overflow_recipients' => 
+'Почтовые ящики следующих участников сейчас заполнены, и чтобы послать это сообщение,необходимо удалить их из поля Получатели или Копия: %overflow_names%',
+'add_buddy' => 
+'Добавить в друзья',
+'add_block' => 
+'Добавить в заблокированные',
+'invalid_username' => 
+'Один или несколько указанных псевдонимов недействительны.',
+'delete_selected' => 
+'Удалить отмеченные',
+'move_selected' => 
+'Переместить выбранные',
+'copy_selected' => 
+'Копировать выбранные сообщения',
+'no_search_results' => 
+'Совпадения не найдены',
+'bulletin_board' => 
+'Доска сообщений',
+'message_no_bulletins' => 
+'Нет сообщений',
+'send_bulletin' => 
+'Отправить сообщение',
+'bulletin_expires' => 
+'Срок сообщения истекает',
+'bulletin_message' => 
+'Текст сообщения',
+'bulletin_date' => 
+'Дата сообщения',
+'bulletin_success' => 
+'Сообщение успешно опубликовано',
+'member_group' => 
+'Группа участников',
+'delete_bulletin' => 
+'Удалить сообщение',
+'delete_bulletin_popup' => 
+'Действительно хотите удалить это сообщение?',
+'bulletin_deleted' => 
+'Сообщение удалено',
+'messsage_already_sent' => 
+'Ваше сообщение уже отправлено',
+'waiting_period_not_reached' => 
+'Для предотвращения спама установлен период ожидания %time% час. до того, как новому участнику будет разрешено отправлять личные сообщения.',
+'send_throttle' => 
+'Вы можете посылать личные сообщения не чаще одного раза в %x секунд',
+'duplicate_message_sent' => 
+'Вы отправили одно и то же сообщение более одного раза.',
+'' => 
+'',
+''=>'');

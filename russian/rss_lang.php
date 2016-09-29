@@ -1,21 +1,11 @@
 <?php
-
 $lang = array(
-
-//----------------------------------------
-// Required for MODULES page
-//----------------------------------------
-
-'rss_module_name' => 'RSS',
-
-'rss_module_description' => 'RSS page generating module',
-
-//----------------------------------------
-
-'rss_invalid_channel' => 'The channel specified in your RSS feed does not exist.',
-
-
-''=>''
-);
-
-// EOF
+'rss_module_name' => 
+'RSS',
+'rss_module_description' => 
+'Модуль генерации страницы RSS',
+'rss_invalid_channel' => 
+'Канал указанный в RSS не существует.',
+'' => 
+'',
+''=>'');

@@ -1,59 +1,69 @@
 <?php
-
 $lang = array(
-
-//----------------------------
-// Email
-//----------------------------
-
-'email_module_name' => 'Email',
-
-'email_module_description' => 'User Email Module',
-
-'message_required' => 'Email Message is Required',
-
-'em_banned_from_email' => 'The sender email address you submitted is banned.',
-
-'em_banned_recipient' => 'One or more of your recipient emails is banned.',
-
-'em_invalid_recipient' => 'One or more of your recipient emails is invalid.',
-
-'em_no_valid_recipients' => 'Your email had no valid recipients.',
-
-'em_sender_required' => 'A valid sender email is required',
-
-'em_unauthorized_request' => 'You are not authorized to perform this action',
-
-'em_limit_exceeded' => 'You have exceeded the number of emails allowed to be sent per day.',
-
-'em_interval_warning' => 'You are only allowed to submit email forms every %s seconds',
-
-'em_email_sent' => 'Your email message has been sent.',
-
-'em_no_preview_template_specified' => 'The email tag does not contain the location of your preview template.',
-
-'email_must_be_array' => "The email validation method must be passed an array.",
-'email_invalid_address' => "Invalid email address: %s",
-'email_attachment_missing' => "Unable to locate the following email attachment: %s",
-'email_attachment_unreadable' => "Unable to open this attachment: %s",
-'email_no_recipients' => "You must include recipients: To, Cc, or Bcc",
-'email_send_failure_phpmail' => "Unable to send email using PHP mail().  Your server might not be configured to send mail using this method.",
-'email_send_failure_sendmail' => "Unable to send email using PHP Sendmail.  Your server might not be configured to send mail using this method.",
-'email_send_failure_smtp' => "Unable to send email using PHP SMTP.  Your server might not be configured to send mail using this method.",
-'email_sent' => "Your message has been successfully sent using the following protocol: %s",
-'email_no_socket' => "Unable to open a socket to Sendmail. Please check settings.",
-'email_no_hostname' => "You did not specify a SMTP hostname.",
-'email_no_port' => "You did not specify a SMTP port.",
-'email_smtp_error' => "The following SMTP error was encountered: %s",
-'email_no_smtp_unpw' => "Error: You must assign a SMTP username and password.",
-'email_failed_smtp_login' => "Failed to send AUTH LOGIN command. Error: %s",
-'email_smtp_auth_un' => "Failed to authenticate username. Error: %s",
-'email_smtp_auth_pw' => "Failed to authenticate password. Error: %s",
-'email_smtp_data_failure' => "Unable to send data: %s",
-'email_exit_status' => "Exit status code: %s",
-
-
-''=>''
-);
-
-// EOF
+'email_module_name' => 
+'E-mail',
+'email_module_description' => 
+'Модуль E-mail',
+'message_required' => 
+'Необходимо ввести текст сообщения письма',
+'em_banned_from_email' => 
+'Адрес отправителя запрещен.',
+'em_banned_recipient' => 
+'Один или более адресов получателей запрещены.',
+'em_invalid_recipient' => 
+'Один или более адресов получателей неверны.',
+'em_no_valid_recipients' => 
+'Адреса получателей Вашего письма неверны.',
+'em_sender_required' => 
+'Необходим правильный адрес отправителя',
+'em_unauthorized_request' => 
+'Вы не авторизованы для выполнения этой операции',
+'em_limit_exceeded' => 
+'Превышено количество писем, разрешенных к отправке за день.',
+'em_interval_warning' => 
+'Вы можете отправлять письма не чаще одного раза в %s сек.',
+'em_email_sent' => 
+'Ваше письмо отправлено.',
+'em_no_preview_template_specified' => 
+'The email tag does not contain the location of your preview template.',
+'email_must_be_array' => 
+'Метод проверки эл.почты должен быть помещен в масив',
+'email_invalid_address' => 
+'Неправильный email: %s',
+'email_attachment_missing' => 
+'Не удалось найти следующие вложений электронной почты: % s',
+'email_attachment_unreadable' => 
+'Невозможно открыть это вложение: % s',
+'email_no_recipients' => 
+'Вы должны включить получателей: To, Cc, or Bcc',
+'email_send_failure_phpmail' => 
+'Не удается отправить электронную почту с помощью PHP mail(). Ваш сервер может быть не настроен на отправку почты с помощью этого метода',
+'email_send_failure_sendmail' => 
+'Не удается отправить электронную почту с помощью PHP Sendmail. Ваш сервер может быть настроен на отправку почты с помощью этого метода',
+'email_send_failure_smtp' => 
+'Невозможно отправить сообщение используя PHP SMTP. Ваш сервер не настроен на отправку почты при помощи этого метода.',
+'email_sent' => 
+'Ваше сообщение успешно отправлено используя следующий протокол: %s',
+'email_no_socket' => 
+'Невозможно открыть сокет для Sendmail. Пожалуйста, проверьте настройки',
+'email_no_hostname' => 
+'Вы не указали SMTP имя хоста.',
+'email_no_port' => 
+'Вы не указали порт SMTP.',
+'email_smtp_error' => 
+'Имели место следующие ошибки SMTP : %s',
+'email_no_smtp_unpw' => 
+'Ошибка: Вы должны указать Имя пользователя и Пароль',
+'email_failed_smtp_login' => 
+'Невозможно отправить команду AUTH LOGIN. Ошибка: %s',
+'email_smtp_auth_un' => 
+'Сбой при проверке имени пользователя. Ошибка: %s',
+'email_smtp_auth_pw' => 
+'Сбой при проверке пароля. Ошибка: %s',
+'email_smtp_data_failure' => 
+'Невозможно отослать данные: %s',
+'email_exit_status' => 
+'Код статуса выхода: %s',
+'' => 
+'',
+''=>'');

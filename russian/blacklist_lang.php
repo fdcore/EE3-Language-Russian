@@ -1,149 +1,99 @@
 <?php
 $lang = array(
-
-
 'blacklist_module_name' => 
-'Black/White List',
-
+'Черный / Белый список',
 'blacklist_module_description' => 
-'Blacklist and whitelist module',
-
+'Модуль черного и белого списков',
 'add_htaccess_file' => 
 'Add to .htaccess file?',
-
 'add_htaccess_file_desc' => 
 'Full path location of your <mark>.htaccess</mark> file.',
-
 'btn_save_list' => 
 'Сохранить список',
-
 'btn_download_blacklist' => 
 'Download EE Blacklist',
-
 'btn_download_whitelist' => 
 'Download EE Whitelist',
-
 'btn_save_settings' => 
 'Save Settings',
-
 'settings' => 
 'Настройки',
-
 'lists' => 
 'Списки',
-
 'whitelist' => 
-'Whitelist',
-
+'Белый список',
 'whitelist_desc' => 
 'Whitelists <b>allow</b> access to your website via specific <abbr title=',
-
 'blacklist' => 
-'Blacklist',
-
+'Черный список',
 'blacklist_desc' => 
 'Blacklists <b>disallow</b> access to your website via specific <abbr title=',
-
 'ip_address' => 
 '<abbr title=',
-
 'ip_address_desc' => 
 '<b>Place each <abbr title=',
-
 'user_agent' => 
 'User Agent',
-
 'user_agent_desc' => 
 '<b>Place each user agent on a separate line.</b>',
-
 'url' => 
 '<abbr title=',
-
 'url_desc' => 
 '<b>Place each <abbr title=',
-
 'htaccess_path_removed' => 
 '.htaccess Path Removed',
-
 'htaccess_path_removed_desc' => 
 'The .htaccess file path was removed from your configuration',
-
 'htaccess_written_successfully' => 
-'.htaccess File Updated',
-
+'Файл .htaccess был успешно записан.',
 'htaccess_written_successfully_desc' => 
 'The .htaccess file was written successfully.',
-
 'invalid_htaccess_path' => 
-'Invalid Path or Permissions for .htaccess file',
-
+'Неправильный путь или права доступа для файла .htaccess',
 'lists_updated' => 
 'Lists updated',
-
 'lists_updated_desc' => 
 'The blacklist and whitelist were updated successfully.',
-
 'blacklist_downloaded' => 
 'The blacklist has been updated by being downloaded from ExpressionEngine.',
-
 'whitelist_downloaded' => 
 'The whitelist has been updated by being downloaded from ExpressionEngine.',
-
 'ee_whitelist' => 
-'Download ExpressionEngine Whitelist',
-
+'Скачать Белый список с ЕxpressionЕngine.com',
 'ref_whitelist_irretrievable' => 
-'Error: New whitelist was irretrievable.',
-
+'Ошибка: новый белый список получить не удалось.',
 'ref_view_whitelist' => 
-'View Whitelist',
-
+'Просмотр белого списка',
 'ref_no_whitelist' => 
-'There is currently nothing whitelisted',
-
+'На данный момент белый список пуст',
 'ref_whitelisted' => 
-'Whitelisted',
-
+'Занесены в белый список',
 'ref_no_whitelist_table' => 
-'Whitelist database table does not exist',
-
+'В базе данных нет таблицы белого списка',
 'ref_type' => 
-'Item Type',
-
+'Тип',
 'ee_blacklist' => 
-'Download ExpressionEngine Blacklist',
-
+'Скачать Черный список с ЕxpressionЕngine.com',
 'requires_license_number' => 
-'Requires License Number in General Configuration',
-
+'Необходим номер лицензии в Основных настройках',
 'ref_no_license' => 
-'Error: No license number.',
-
+'Ошибка: отсутствует номер лицензии.',
 'ref_blacklist_irretrievable' => 
-'Error: New blacklist was irretrievable.',
-
+'Ошибка: новый черный список получить не удалось.',
 'ref_view_blacklist' => 
-'View Blacklist',
-
+'Просмотр черного списка',
 'ref_no_blacklist' => 
-'There is currently nothing blacklisted',
-
+'На данный момент черный список пуст',
 'ref_ip' => 
-'IP Address',
-
+'IP-адрес',
 'ref_user_agent' => 
-'User Agent',
-
+'Браузер',
 'ref_url' => 
 'URL',
-
 'ref_blacklisted' => 
-'Blacklisted',
-
+'Занесены в черный список',
 'ref_no_blacklist_table' => 
-'Blacklist database table does not exist',
-
-''=>''
-);
-
-// End of File
+'В базе данных нет таблицы черного списка',
+'' => 
+'',
+''=>'');

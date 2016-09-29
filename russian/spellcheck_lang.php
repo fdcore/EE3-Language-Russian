@@ -1,31 +1,23 @@
 <?php
-
 $lang = array(
-
-//----------------------------
-// Publish page
-//----------------------------
-
-'spell_check' => 'Spell Check',
-
-'check_spelling' => 'Check Spelling',
-
-'save_spellcheck' => 'Save Changes',
-
-'revert_spellcheck' => 'Revert to Original',
-
-'spell_save_edit' => 'Save Edit',
-
-'spell_edit_word' => 'Edit Word',
-
-'unsupported_browser' => 'Unsupported Browser',
-
-'no_spelling_errors' => 'No Errors Found',
-
-'spellcheck_in_progress' => 'Check In Progress...',
-
-
-''=>''
-);
-
-// EOF
+'spell_check' => 
+'Проверка орфографии',
+'check_spelling' => 
+'Проверить орфографию',
+'save_spellcheck' => 
+'Сохранить изменения',
+'revert_spellcheck' => 
+'Восстановить оригинал',
+'spell_save_edit' => 
+'Сохранить изменения',
+'spell_edit_word' => 
+'Редактировать слово',
+'unsupported_browser' => 
+'Этот браузер не поддерживает данную функцию',
+'no_spelling_errors' => 
+'Ошибок не найдено',
+'spellcheck_in_progress' => 
+'Выполняется проверка...',
+'' => 
+'',
+''=>'');

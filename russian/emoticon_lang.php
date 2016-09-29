@@ -1,35 +1,21 @@
 <?php
-
 $lang = array(
-
-//----------------------------------------
-// Required for MODULES page
-//----------------------------------------
-
-'emoticon_module_name' => 'Emoticon',
-
-'emoticon_module_description' => 'Emoticon (smiley) module',
-
-
-//----------------------------------------
-// Emoticon language lines
-//----------------------------------------
-
-'emoticon_heading' => 'Emoticons',
-
-'emoticon_glyph' => 'Glyph',
-
-'emoticon_image' => 'Image',
-
-'emoticon_width' => 'Width',
-
-'emoticon_height' => 'Height',
-
-'emoticon_alt' => 'Alt tag',
-
-
-
-''=>''
-);
-
-// EOF
+'emoticon_module_name' => 
+'Смайлы',
+'emoticon_module_description' => 
+'Модуль смайлов',
+'emoticon_heading' => 
+'Смайлы',
+'emoticon_glyph' => 
+'Глиф',
+'emoticon_image' => 
+'Картинка',
+'emoticon_width' => 
+'Ширина',
+'emoticon_height' => 
+'Высота',
+'emoticon_alt' => 
+'Тег Alt',
+'' => 
+'',
+''=>'');

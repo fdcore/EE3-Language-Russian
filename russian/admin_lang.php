@@ -1,1655 +1,1103 @@
 <?php
 $lang = array(
-
-
 'pconnect' => 
-'Persistent Database Connection',
-
+'Постоянное подключение БД',
 'cache_on' => 
-'Enable SQL Query Caching',
-
+'Включить кеширование SQL запросов',
 'db_debug' => 
-'Enable Database Debugging',
-
+'Включить отладку базы данных',
 'enable_db_caching' => 
-'Enable SQL Query Caching',
-
+'Включить кеширование SQL запросов',
 'xss_clean_uploads' => 
-'Apply XSS Filtering to uploaded files?',
-
+'Применить XSS-фильтрацию к загружаемым файлам?',
 'memberlist_cfg' => 
-'Member List Preferences',
-
+'Настройки списка участников',
 'total_posts' => 
-'Total Posts',
-
+'Всего сообщений',
 'total_comments' => 
-'Total Comments',
-
+'Всего комментариев',
 'total_entries' => 
-'Total Entries',
-
+'Всего записей в блоге',
 'memberlist_order_by' => 
-'Member List - Sort By',
-
+'Список участников - Сортировать по',
 'memberlist_sort_order' => 
-'Member List - Order',
-
+'Список участников - Порядок',
 'memberlist_desc' => 
-'Descending',
-
+'в обратном порядке',
 'memberlist_asc' => 
-'Ascending',
-
+'в прямом порядке',
 'memberlist_row_limit' => 
-'Member List - Rows',
-
+'Список участников - Строки',
 'system_admin_blurb' => 
-'Most of the administrative aspects of ExpressionEngine are managed from one of the following five areas:',
-
+'Управление большинством функций ExpressionEngine выполняется из одного из следующих пяти разделов:',
 'channel_administration_blurb' => 
-'This area enables you to manage your channels, preferences, and content-related sub-systems.',
-
+'Эта область позволяет управлять вашими каналами, предпочтениями и содержанием связаных подсистем.',
 'members_and_groups_blurb' => 
-'This area allows you to manage members, member groups, and membership-related features.',
-
+'В этом разделе можно управлять участниками, группами участников и вспомогательными функциями модуля участников.',
 'specialty_templates_blurb' => 
-'These templates are used for special purposes such as displaying error messages and sending email notifications.',
-
+'Эти шаблоны используются для специальных целей, например, для показа сообщений об ошибках и отправки уведомлений по E-mail.',
 'system_preferences_blurb' => 
-'This area enables you to manage your system configuration and global preferences.',
-
+'В этом разделе можно управлять конфигурацией системы и глобальными настройками.',
 'utilities_blurb' => 
-'This area contains ancillary utilities that help you manage ExpressionEngine.',
-
+'В этом разделе содержатся вспомогательные утилиты для работы с ExpressionEngine.',
 'search' => 
-'Search',
-
+'Найти',
 'search_preferences' => 
-'Search Preferences',
-
+'Настройки поиска',
 'search_results' => 
-'Search Results',
-
+'Результаты поиска',
 'censor_replacement' => 
-'Censoring Replacement Word',
-
+'Цензура заменой слова',
 'censor_replacement_info' => 
-'If left blank censored words will be replaced with: #',
-
+'Если поле оставлено пустым, то подвергаемые цензуре слова будут заменены символом: #',
 'censored_wildcards' => 
-'Wild cards are allowed.  For example, the wildcard  test* would censor the words test, testing, tester, etc.',
-
+'Разрешены групповые символы.  Например, групповой символ тест* будет запрещать показ слов: тест, тестирование, тестер и т.д.',
 'channel_relationships' => 
-'Channel Relationships',
-
+'Канал Relationships(Отношения)',
 'webmaster_name' => 
-'Webmaster or site name for auto-generated emails',
-
+'Имя веб-мастера или название сайта для автоматически создаваемых писем',
 'search_log_cfg' => 
-'Search Term Log Configuration',
-
+'Конфигурация журнала регистрации поисковых запросов',
 'enable_search_log' => 
-'Enable Search Term Logging',
-
+'Включить регистрацию поисковых запросов',
 'enable_search_log_exp' => 
-'When enabled, the search terms your visitors submit in your search form will be logged.',
-
+'При включении этой опции в журнал регистрации будут заноситься слова, которые используют посетители для выполнения поиска по сайту.',
 'max_logged_searches' => 
-'Maximum number of recent search terms to save',
-
+'Максимальное количество хранимых поисковых запросов',
 'no_extensions_exist' => 
-'No Extensions Exist',
-
+'Нет ни одного расширения',
 'extensions_manager' => 
-'Extensions Manager',
-
+'Управление расширениями',
 'available_extensions' => 
-'Available Extensions',
-
+'Имеющиеся расширения',
 'extension' => 
-'Extension',
-
+'Расширение',
 'manage_extension' => 
-'Manage',
-
+'Управление',
 'disable_extension_conf' => 
-'Disable Extension Confirmation',
-
+'Подтверждение отключения расширения',
 'disable_extensions_conf' => 
-'Disable Extensions Confirmation',
-
+'Подтверждение отключения расширений',
 'enable_extension_conf' => 
-'Enable Extension Confirmation',
-
+'Подтверждение включения расширения',
 'enable_extensions_conf' => 
-'Enable Extensions Confirmation',
-
+'Подтверждение включения расширений',
 'toggle_extension_confirmation' => 
-'Are you sure you wish to perform this action?',
-
+'Вы действительно хотите выполнить это действие?',
 'extension_disabled' => 
-'Disabled',
-
+'Отключено',
 'extension_enabled' => 
-'Enabled',
-
+'Включено',
 'disable_extensions' => 
-'Disable Extensions?',
-
+'Отключить расширения?',
 'enable_extensions' => 
-'Enable Extensions?',
-
+'Включить расширения?',
 'extensions_disabled_manage' => 
-'Extensions must <a href=\'%s\'>be enabled</a> to manage installed extensions.',
-
+'Расширения должны быть <a href=\"%s\">включены</a> для управления установленными расширениями. ',
 'disable_extension' => 
 'Отключить?',
-
 'enable_extension' => 
 'Включить?',
-
 'extension_name' => 
-'Extension Name',
-
+'Название расширения',
 'setting' => 
 'Настройка',
-
 'settings' => 
 'Настройки',
-
 'documentation' => 
 'Документация',
-
 'status' => 
 'Статус',
-
 'extension_settings' => 
-'Extension Settings',
-
+'Настройки расширения',
 'settings_update' => 
-'Settings Updated',
-
+'Настройки обновлены',
 'extension_class_does_not_exist' => 
-'Class %c does not exist in (%f)',
-
+'Класс %c не существует в (%f)',
 'guest' => 
-'Guest',
-
+'Гость',
 'wiki_search' => 
 'Wiki',
-
 'forum_search' => 
-'Forum',
-
+'Форум',
 'site_search' => 
-'Site',
-
+'Сайт',
 'searched_in' => 
-'Searched In',
-
+'Искали в',
 'search_terms' => 
-'Search Terms',
-
+'Слова поиска',
 'screen_name' => 
-'Screen Name',
-
+'Псевдоним',
 'view_search_log' => 
-'View Search Log',
-
+'Просмотр журнала регистрации поисковых запросов',
 'no_search_terms' => 
-'No search terms have been logged',
-
+'Нет зарегистрированных поисковых запросов',
 'throttling_cfg' => 
-'Throttling Configuration',
-
+'Конфигурация снижения активности посетителей',
 'banish_masked_ips' => 
-'Deny Access if No IP Address is Present',
-
+'Отказать в доступе, если нет IP-адреса',
 'max_page_loads' => 
-'Maximum Number of Page Loads',
-
+'Макс. число загрузок страницы',
 'max_page_loads_exp' => 
-'The total number of times a user is allowed to load any of your web pages (within the time interval below) before being locked out.',
-
+'Сколько всего раз посетитель может загружать любые страницы сайта (в течение заданного времени) до отказа ему в дальнейшем доступе к страницам.',
 'time_interval' => 
-'Time Interval (in seconds)',
-
+'Интервал времени (в секундах)',
 'time_interval_exp' => 
-'The number of seconds during which the above number of page loads are allowed.',
-
+'Число секунд, в течение которых разрешено указанное число загрузок страниц.',
 'lockout_time' => 
-'Lockout Time (in seconds)',
-
+'Время блокировки доступа (в секундах)',
 'lockout_time_exp' => 
-'The length of time a user should be locked out of your site if they exceed the limits.',
-
+'Время, в течение которого посетителю будет отказан доступ в дальнейшей загрузке страниц, если он превысил лимит загрузок.',
 'banishment_type' => 
-'Action to Take',
-
+'Предпринимаемые меры',
 'banishment_type_exp' => 
-'The action that should take place if a user has exceeded the limits.',
-
+'Меры в отношении посетителя, превысившего лимит.',
 'url_redirect' => 
-'URL Redirect',
-
+'Перенаправление URL',
 '404_page' => 
-'Send 404 headers',
-
+'Показ страницы 404',
 'show_message' => 
-'Show custom message',
-
+'Показать специальное сообщение',
 'banishment_url' => 
-'URL for Redirect',
-
+'URL для перенаправления',
 'banishment_url_exp' => 
-'If you chose the URL Redirect option.',
-
+'Если Вы выбрали вариант с перенаправлением URL.',
 'banishment_message' => 
-'Custom Message',
-
+'Текст специального сообщения',
 'banishment_message_exp' => 
-'If you chose the Custom Message option.',
-
+'Если Вы выбрали вариант со специальным сообщением.',
 'email_charset' => 
-'Email Character Encoding',
-
+'Кодировка символов в E-mail',
 'allow_member_localization' => 
-'Allow members to set their own localization preferences?',
-
+'Разрешить участникам устанавливать свои параметры локализации?',
 'allow_member_loc_notes' => 
-'If set to ',
-
+'Если установлено \\\"нет\\\", то локализация всех дат и времени на сайте будет установлена в соответствии с параметрами по умолчанию.',
 'publish_tab_behavior' => 
-'Publish Tab Behavior',
-
+'Режим вкладки Публиковать',
 'click' => 
-'Click',
-
+'Нажатие',
 'hover' => 
-'Hover',
-
+'Наведение',
 'enable_throttling' => 
-'Enable Throttling',
-
+'Включить ограничение активности посетителей',
 'enable_throttling_explanation' => 
-'This feature generates a 404 header and message if a request to your site is made in which the template group does not exist in the URL. It is intended primarily to keep search engine crawlers from repeatedly requesting nonexistent pages.',
-
+'Эта функция создает страницу 404, если в URL запрошена несуществующая группа шаблонов. Это необходимо, главным образом, для защиты от сторонних поисковых систем, постоянно запрашивающих несуществующие страницы.',
 'caching_driver' => 
-'Caching Driver',
-
+'Кеширующий Драйвер',
 'caching_driver_failover' => 
-'Cannot connect to %s, using %s driver instead',
-
+'Невозможно подключиться к %s, используя драйвер %s',
 'caching_driver_file_fail' => 
-'Cannot use %s driver, check cache path permissions',
-
+'Нельзя использовать %s драйвер, проверьте права доступа к папке с кэшем, которую использует %s драйвер',
 'disable_caching' => 
-'Disable Caching',
-
+'Отключить кэширование',
 'max_caches' => 
-'Maximum Number of Cachable URIs',
-
+'Макс. число кэшируемых URL',
 'max_caches_explanation' => 
-'If you cache your pages or database, this limits the number of cache instances. We recommend 150 for small sites and 300 for large sites. The allowed maximum is 1000.',
-
+'Если Вы кэшируете страницы или базу данных, то эта настройка ограничит общее число кэшируемых элементов, чтобы кэш-файлы не занимали слишком много места. 150 &#8211; это достаточное число для небольшого сайта.  Если у Вас большой сайт и дисковое пространство не проблема, можно увеличить это значение (больше 300).  Мы установили максимум 1000, независимо от Ваших настроек.',
 'standby_recount' => 
-'Recounting... please stand by...',
-
+'Пересчет... пожалуйста, подождите...',
 'theme_folder_url' => 
-'URL to your ',
-
+'URL директории с Вашими темами оформления сайта',
 'exp_forums' => 
-'Forum Stats',
-
+'Статистика форума',
 'exp_forum_topics' => 
-'Forum Topics',
-
+'Темы форума',
 'email_module_captchas' => 
-'Enable CAPTCHAs for Tell-a-Friend and Contact emails',
-
+'Включить CAPTCHA для Расскажи другу и Контактных писем',
 'sql_good_query' => 
-'Your query was successful',
-
+'Запрос выполнен успешно',
 'must_submit_number' => 
-'You must submit the number of days to filter the pruning routine by.',
-
+'Необходимо указать число дней для фильтрации с функцией удаления неактивных участников.',
 'must_submit_group' => 
-'You must choose at least one member group',
-
+'Необходимо выбрать по крайней мере одну группу участников',
 'must_submit_channel' => 
-'You must choose at least one channel',
-
+'Вы должны выбрать хотя бы один канал',
 'taken_channel_name' => 
-'This channel name is already taken.',
-
+'Это имя канала уже занято.',
 'good_member_pruning' => 
-'%x member accounts have been deleted',
-
+'Удалено %x аккаунтов участников',
 'prune_member_confirm_msg' => 
-'Are you sure you want to delete the member accounts you specified?',
-
+'Вы действительно хотите удалить выбранные аккаунты участников?',
 'member_pruning' => 
-'Membership Account Pruning',
-
+'Сокращение аккаунтов участников',
 'mbr_prune_x_days' => 
-'Delete membership accounts that are more than X days old',
-
+'Удалить аккаунты, которые старше X дней',
 'mbr_prune_never_posted' => 
-'Only delete users who have never posted entries, comments, or forum posts',
-
+'Удалить только тех пользователей, которые никогда не публиковали статей, комментариев или сообщений в форуме',
 'mbr_prune_zero_note' => 
-'If you submit a zero, member accounts from any date will be deleted.',
-
+'Если Вы укажете 0, будут удаляться аккаунты с любой датой.',
 'mbr_prune_groups' => 
-'Delete only within the selected groups',
-
+'Удалять только в пределах выбранных групп',
 'channel_entry_pruning' => 
-'Channel Entry Pruning',
-
+'Обрезка вступления канала',
 'channel_prune_x_days' => 
-'Delete channel entries that are more than X days old',
-
+'Удалить записи канаов которые старше X дней',
 'channel_prune_never_posted' => 
-'Only delete entries that have no comments',
-
+'Удалять только записи не имеющие комментариев',
 'prune_entry_confirm_msg' => 
-'Are you sure you want to delete the channel entries you specified?',
-
+'Вы действительно хотите удалить выбранные статьи блога?',
 'good_entry_pruning' => 
-'%x channel entries have been deleted',
-
+'Удалено %x статей блога',
 'select_prune_channels' => 
-'Delete only within the selected channels',
-
+'Удалять только в выбраных каналах',
 'comment_pruning' => 
-'Comment Pruning',
-
+'Сокращение комментариев',
 'comment_prune_x_days' => 
-'Delete comments that are more than X days old',
-
+'Удалить комментарии, которые старше X дней',
 'good_commennt_pruning' => 
-'%x comments have been deleted',
-
+'Удалено %x комментариев',
 'prune_comment_confirm_msg' => 
-'Are you sure you want to delete the comments you specified?',
-
+'Вы действительно хотите удалить выбранные комментарии?',
 'topic_pruning' => 
-'Forum Topic Pruning',
-
+'Сокращение тем форума',
 'good_topic_pruning' => 
-'%x forum topics have been deleted',
-
+'Удалено %x тем форума',
 'topic_prune_x_days' => 
-'Delete forum topics that are more than X days old',
-
+'Удалить темы форумов, которые старше X дней',
 'must_submit_forums' => 
-'You must choose at least one forum',
-
+'Необходимо выбрать по крайней мере один форум',
 'prune_if_no_posts' => 
-'Delete topics only if they do not contain any posts',
-
+'Удалять темы, только если они не содержат ответов',
 'select_prune_forums' => 
-'Delete only within the selected forums',
-
+'Удалять только в пределах выбранных форумов',
 'must_select_one' => 
-'You must select at least one',
-
+'Необходимо выбрать по крайней мере один',
 'prune_topic_confirm_msg' => 
-'Are you sure you want to delete the forum topics you specified?',
-
+'Вы действительно хотите удалить выбранные темы форума?',
 'select_prune_topics' => 
-'Delete only within the selected forums',
-
+'Удалять только в пределах выбранных форумов',
 'pm_cfg' => 
-'Private Messaging Preferences',
-
+'Настройки системы личных сообщений',
 'prv_msg_enabled' => 
 'Enable private messaging between members?',
-
 'prv_msg_storage_limit' => 
-'Maximum Number of Private Messages a user can store',
-
+'Макс. число хранимых пользователем личных сообщений',
 'prv_msg_send_limit' => 
-'Maximum Number of Private Messages a user can send per day',
-
+'Макс. число личных сообщений, которые пользователь может отправить за сутки',
 'prv_msg_max_chars' => 
-'Maximum Number of characters to allow in Private Messages',
-
+'Макс. разрешенное число символов в личных сообщениях',
 'prv_msg_allow_attachments' => 
 'Allow attachments in private messages?',
-
 'prv_msg_max_attachments' => 
-'Maximum Number of Attachments per Private Message',
-
+'Макс. число вложений в личном сообщении',
 'prv_msg_upload_path' => 
-'Server Path for Attachment Upload Directory',
-
+'Путь на сервере к директории загрузки вложений',
 'prv_msg_attach_maxsize' => 
-'Maximum Size of Attachment for a Private Message (in Kilobytes)',
-
+'Макс. размер вложения личного сообщения (в КБ)',
 'prv_msg_attach_total' => 
-'Maximum Amount of All Attachments (in Megabytes)',
-
+'Макс. число всех вложений (в МБ)',
 'prv_msg_html_format' => 
-'HTML Formatting in Private Messages',
-
+'HTML-форматирование в личных сообщениях',
 'prv_msg_auto_links' => 
-'Auto-convert URLs and email addresses into links?',
-
+'Автоматически преобразовывать URL и email-адреса в ссылки?',
 'html_safe' => 
-'Allow only safe HTML',
-
+'Разрешить только безопасный HTML',
 'html_all' => 
-'Allow all HTML (not recommended)',
-
+'Разрешить весь HTML (не рекомендуется)',
 'html_none' => 
-'Convert HTML into character entities',
-
+'Преобразовывать HTML в числовые коды',
 'config_editor' => 
-'Config File Editor',
-
+'Менеджер файла конфигурации',
 'image_cfg' => 
-'Image Resizing Preferences',
-
+'Настройки изменения изображений',
 'output_cfg' => 
-'Output and Debugging Preferences',
-
+'Настройки вывода и отладки',
 'category_trigger_duplication' => 
-'Category Trigger error: A template or template group with this name already exists.',
-
+'Шаблон или группа шаблонов с таким названием уже существует.',
 'invalid_path' => 
-'The following path you submitted is not valid:',
-
+'Файл не найден.',
 'not_writable_path' => 
-'The path you submitted is not writeable.  Please make sure the file permissions are set to 777.',
-
+'Указанный Вами путь защищен от записи.  Убедитесь, что для директории установлены права доступа 777.',
 'empty_profile_trigger' => 
-'You must specify a Profile Triggering Word',
-
+'Вы должны указать профиль Запускающего слова',
 'profile_trigger' => 
-'Profile Triggering Word',
-
+'Название профиля в URL',
 'profile_trigger_notes' => 
-'When this word is encountered your URL it will display your member profile area.  The word you choose cannot be the name of an existing template group',
-
+'При обнаружении системой этого слова в URL будет показан профиль участника.  Выбранное слово не может быть названием уже существующей группы шаблонов',
 'signature_cfg' => 
-'Signature Preferences',
-
+'Настройки подписи',
 'notification_cfg' => 
-'Notification Preferences',
-
+'Настройки уведомлений',
 'photo_cfg' => 
-'Member Photo Preferences',
-
+'Настройки фото участников',
 'enable_photos' => 
-'Enable Member Photos',
-
+'Разрешить фотографии участников',
 'photo_url' => 
-'URL to Photos Folder',
-
+'URL директории с фотографиями',
 'photo_path' => 
-'Server Path to Photo Folder',
-
+'Путь на сервере к директории с фотографиями',
 'photo_max_width' => 
-'Photo Maximum Width',
-
+'Макс. ширина фото',
 'photo_max_height' => 
-'Photo Maximum Height',
-
+'Макс. высота фото',
 'photo_max_kb' => 
-'Photo Maximum Size (in Kilobytes)',
-
+'Макс. размер фото (в КБ)',
 'must_be_path' => 
-'Note: Must be a full server path, NOT a URL.  Folder permissions must be set to 777.',
-
+'Примечание: должен быть указан полный путь на сервере, а не URL.  Права доступа к директории должны быть 777.',
 'allow_signatures' => 
-'Allow Users to have Signatures?',
-
+'Разрешить пользователям использовать подписи?',
 'sig_maxlength' => 
-'Maximum number of characters per signature',
-
+'Макс. число символов в подписи',
 'sig_allow_img_hotlink' => 
-'Allow image hot linking in signatures?',
-
+'Разрешить использование ссылок в подписях?',
 'sig_allow_img_upload' => 
-'Allow users to upload an image in their signature?',
-
+'Разрешить пользователям загружать на сервер изображения для подписей?',
 'sig_img_url' => 
-'URL to Signature Image Upload Folder',
-
+'URL директории для загрузки на сервер изображений подписи',
 'sig_img_path' => 
-'Server path to Signature Image Upload Folder',
-
+'Путь на сервере к директории для загрузки на сервер изображений для подписей',
 'sig_img_max_width' => 
-'Maximum Width of Signature Image',
-
+'Макс. ширина изображения в подписи',
 'sig_img_max_height' => 
-'Maximum Height of Signature Image',
-
+'Макс. высота изображения в подписи',
 'sig_img_max_kb' => 
-'Maximum Size (in Kilobytes) of Signature Image',
-
+'Макс. размер (в КБ) изображения в подписи',
 'avatar_cfg' => 
-'Avatar Preferences',
-
+'Настройки аватара',
 'enable_avatars' => 
-'Enable Avatars',
-
+'Включить аватары',
 'allow_avatar_uploads' => 
-'Allow members to upload their own avatars?',
-
+'Разрешить участникам загружать на сервер свои аватары?',
 'avatar_url' => 
-'URL to Avatar Folder',
-
+'URL к директории с аватарами',
 'avatar_path' => 
-'Server Path to Avatar Folder',
-
+'Путь на сервере к директории с аватарами',
 'avatar_max_width' => 
-'Avatar Maximum Width',
-
+'Макс. ширина аватара',
 'avatar_max_height' => 
-'Avatar Maximum Height',
-
+'Макс. высота аватара',
 'avatar_max_kb' => 
-'Avatar Maximum Size (in Kilobytes)',
-
+'Макс. размер аватара (в КБ)',
 'ignore_noncritical' => 
-'Ignore non-essential data (recommended)',
-
+'Игнорировать несущественные данные (рекомендуется)',
 'archive_destination' => 
-'Destination',
-
+'Сохранение',
 'archive_type' => 
-'File Type',
-
+'Тип файла',
 'mac_no_zip' => 
-'(best choice for Mac users)',
-
+'(лучший выбор для пользователей Mac)',
 'max_referrers' => 
-'Maximum number of recent referrers to save',
-
+'Макс. количество последних рефереров для хранения',
 'new_version_check' => 
-'New Version Auto Check',
-
+'Автоматическая проверка появления новой версии',
 'profile_buttons' => 
-'Path to Member Images',
-
+'Путь к картинкам участников',
 'profile_buttons_exp' => 
-'This is the path to the directory containing the images used in the member profile pages.',
-
+'Это путь к директории с изображениями, используемыми на страницах Профиля участника.',
 'captcha_rand' => 
-'Add Random Number to CAPTCHA Word',
-
+'Добавлять в CAPTCHA случайное число',
 'plugin_no_curl_support' => 
-'Your server does not support the Curl library, which is required in order to use this feature.',
-
+'Ваш сервер не поддерживает требуемую для этой функции библиотеку CURL.',
 'plugins' => 
-'Plugins',
-
+'Плагины',
 'plugin_by_date' => 
-'By Date',
-
+'По дате',
 'plugin_by_letter' => 
-'By Letter',
-
+'По алфавиту',
 'plugin_requires' => 
-'Requires',
-
+'Требует',
 'plugin_zlib_missing' => 
-'Zlib library is missing.  Please consult user guide.',
-
+'Библиотека zlib отсутствует.  См. Руководство.',
 'plugin_can_not_fetch' => 
-'Unable to remotely retrieve the plugin',
-
+'Невозможно получить плагин',
 'plugin_folder_not_writable' => 
-'Your plugin folder is not writable.  File permissions must be set to 777 before this action can be performed.',
-
+'Ваша директория плагинов защищена от записи.  Для выполнения этого действия необходимо установить права доступа на 777.',
 'plugin_problem_creating_file' => 
-'Unable to create a local version of your plugin',
-
+'Невозможно создать локальную версию плагина',
 'plugin_version_check' => 
-'Check Version',
-
+'Проверить версию',
 'plugin_installed' => 
-'Plugin(s) Installed',
-
+'Установленных плагинов',
 'plugin_latest' => 
-'Latest Plugins',
-
+'Последние плагины',
 'plugin_installation' => 
-'Plugin Installation',
-
+'Установка плагина',
 'plugin_install' => 
-'Install',
-
+'Установить',
 'plugin_install_status' => 
-'Plugin Installation Status',
-
+'Статус установки плагина',
 'plugin_install_success' => 
-'The plugin was successfully installed.',
-
+'Плагин успешно установлен.',
 'plugin_install_other' => 
-'The plugin file has been stored in your plugins directory.',
-
+'Файл плагина сохранен в директории с плагинами.',
 'plugin_error_uncompress' => 
-'Unable to uncompress ZIP file. The ZIP file has been stored in your plugins directory.',
-
+'Невозможно разархивировать ZIP-файл. ZIP-файл сохранен в директории плагинов.',
 'plugin_error_no_zlib' => 
-'Your server does not have zlib support, so decompression is not possible.  The ZIP file is stored in your plugins directory.',
-
+'Ваш сервер не поддерживает библиотеку zlib, поэтому разархивация невозможна.  ZIP-файл сохранен в директории плагинов.',
 'plugin_error_package_already_exists' => 
-'Add-on Package already exists',
-
+'Пакет дополнения уже есть',
 'plugin_error_no_plugins_found' => 
-'Could not find a valid plugin file in the download',
-
+'Не найден верный файл плагина в закачках',
 'plugin_delete_confirm' => 
-'Plugin Removal Confirmation',
-
+'Подтверждение удаления плагина',
 'plugin_single_confirm' => 
-'Are you sure you want to delete this plugin?',
-
+'Подтверждаете удаление этого плагина?',
 'plugin_multiple_confirm' => 
-'Are you sure you want to delete these plugins?',
-
+'Подтверждаете удаление этих плагинов?',
 'plugin_remove' => 
-'Remove',
-
+'Удалить',
 'plugin_removal' => 
-'Plugin Removal',
-
+'Удаление плагина',
 'plugin_removal_status' => 
-'Plugin Removal Status',
-
+'Статус удаления плагина',
 'plugin_removal_success' => 
-'The following plugin was successfully removed:',
-
+'Удален плагин:',
 'plugin_removal_error' => 
-'An error occurred removing the following plugin:',
-
+'Ошибка при удалении плагина:',
 'auto_assign_cat_parents' => 
-'Auto-Assign Category Parents',
-
+'Автоматическое присвоение родительских категорий',
 'auto_assign_cat_parents_exp' => 
-'If set to ',
-
+'Если выбран вариант \\\"да\\\", то при отправке новых материалов в выбранную категорию его родительские категории присваиваются автоматически',
 'use_category_name' => 
-'Use Category URL Titles In Links?',
-
+'Использовать названия категорий в ссылках?',
 'use_category_name_exp' => 
-'This preference determines whether the category ID number or the category URL Title is used in category-related links.',
-
+'Эта настройка определяет, что будет использоваться в ссылках на материалы категории &#8211; ID-номер категории или ее название.',
 'reserved_category_word' => 
-'Category URL Indicator',
-
+'Индикатор категории в URL',
 'reserved_category_word_exp' => 
-'If you set the above preference to ',
-
+'Если выбран вариант \\\"да\\\", необходимо указать соответствующее слово.  Это слово будет использоваться в URL, заставляя систему выводить соответствующую категорию.  Примечание: это слово НЕ МОЖЕТ совпадать с названием шаблона или группы шаблонов.',
 'enable_sql_caching' => 
-'Cache Dynamic Channel Queries?',
-
+'Кэшировать динамические запросы к базе данных?',
 'enable_sql_caching_exp' => 
-'This feature will improve the speed at which your channel pages load by caching queries that are normally executed dynamically.  Enable it only if you do not use the ',
-
+'Эта настройка ускоряет вывод страниц блога, записывая в кэш результаты динамических запросов к базе данных.  Задействуйте ее лишь в том случае, если Вы не собираетесь публиковать \\\"будущие материалы\\\" или \\\"временные материалы\\\".',
 'email_debug' => 
-'Enable Email Debugging?',
-
+'Включить Отладку E-mail (debugging)?',
 'email_debug_exp' => 
-'Server messages will be displayed when sending email.',
-
+'При отправке email-сообщений будут выводиться сообщения сервера.',
 'none' => 
-'None',
-
+'Отключено',
 'channel_nomenclature' => 
-'Section Designation Word',
-
+'Раздел назначения слова',
 'channel_nomenclature_exp' => 
-'By default, ExpressionEngine uses the word ',
-
+'По умолчанию ExpressionEngine использует слово \\ \"канал \\\" во всей панели управления. Вы можете изменить его, если хотите что-то более общее, как \\ \"раздел \\\". Пожалуйста, обратите внимание: это слово не будет меняться в шаблонах, только в панели управления.',
 'site_404' => 
-'404 Page',
-
+'Страница Ошибка 404',
 'site_404_exp' => 
-'Determines which template should be displayed when someone tries to access an invalid URL.',
-
+'Определяет то, какой шаблон будет выводиться при попытке доступа к несуществующей странице (или по неправильной ссылке).',
 'db_cfg' => 
-'Database Settings',
-
+'Настройки базы данных',
 'cp_image_path' => 
-'URL to Control Panel Image Directory',
-
+'URL директории изображений ПУ',
 'auto_close' => 
-'Auto',
-
+'Автоматически',
 'manual_close' => 
-'Manual',
-
+'Вручную',
 'new_posts_clear_caches' => 
-'Clear all caches when new entries are posted?',
-
+'Очищать все кэши при публикации новых материалов?',
 'require_ip_for_posting' => 
-'Require IP Address and User Agent for posting?',
-
+'Запрашивать IP-адрес и User Agent при получении комментариев?',
 'redirect_submitted_links' => 
-'Apply Rank Denial to User-submitted Links?',
-
+'Не повышать рейтинг ссылок, публикуемых пользователями?',
 'redirect_submitted_links_explanation' => 
-'This option rewrites links submitted by users so they first point to an intermediary redirect page. This helps deter comment spamming by preventing search engines from cataloging links.',
-
+'Эта настройка переписывает ссылки, содержащиеся в комментариях таким образом, что они вызывают промежуточную перенаправляющую страницу. Это помогает в борьбе со спаммерами, предотвращая каталогизацию таких ссылок поисковиками.',
 'captcha_cfg' => 
-'CAPTCHA Preferences',
-
+'Настройки Кодового слова (CAPTCHA)',
 'captcha_require_members' => 
-'Require CAPTCHA with logged-in members?',
-
+'Запрашивать ввод кодового слова у авторизованных участников?',
 'channel_cfg' => 
-'Global Channel Preferences',
-
+'Глобальные настройки канала',
 'auto_convert_high_ascii' => 
-'Automatically Convert High ASCII Text to Entities',
-
+'Автоматически преобразовывать High ASCII в числовые коды',
 'cp_cfg' => 
-'Control Panel Settings',
-
+'Настройки Панели управления',
 'query_cfg' => 
-'Query Caching Preferences',
-
+'Настройки кэширования запросов',
 'debug_cfg' => 
-'Debugging Preferences',
-
+'Настройки отладки',
 'software_registration' => 
-'Software Registration',
-
+'Регистрация программного обеспечения',
 'license_contact' => 
-'License Holder Contact Email',
-
+'Владелец лицензии Контактный адрес электронной почты',
 'license_number' => 
-'License Number',
-
+'Номер лицензии',
 'word_separator' => 
-'Word Separator for URL Titles',
-
+'Разделитель слов в URL-заголовках',
 'dash' => 
-'Dash',
-
+'Дефис',
 'underscore' => 
-'Underscore',
-
+'Подчеркивание',
 'site_name' => 
-'Name of your site',
-
+'Название Вашего сайта',
 'system_admin' => 
-'System Administration',
-
+'Управление системой',
 'content_admin' => 
-'Content Administration',
-
+'Администрирование содержания',
 'system_preferences' => 
-'System Preferences',
-
+'Системные настройки',
 'is_system_on' => 
-'Is system on?',
-
+'Система включена?',
 'is_system_on_explanation' => 
-'If system is off, only Super Admins will be able to see your site(s) by default',
-
+'При отключенной системе Ваши сайты будут доступны только Суперадминистраторам',
 'system_off_msg' => 
-'System Off Message',
-
+'Сообщение при отключенной системе',
 'template_updated' => 
-'Template Updated',
-
+'Шаблон обновлен',
 'preference_information' => 
-'Preference Guide',
-
+'Пояснения для настроек',
 'preference' => 
-'Preference',
-
+'Настройки',
 'value' => 
-'Value',
-
+'Значение',
 'general_cfg' => 
-'General Configuration',
-
+'Общие настройки',
 'allow_member_registration' => 
-'Allow New Member Registrations?',
-
+'Разрешить регистрацию новых участников?',
 'req_mbr_activation' => 
-'Require Member Account Activation?',
-
+'Требовать активацию аккаунтов участников?',
 'no_activation' => 
-'No activation required',
-
+'Активация не требуется',
 'email_activation' => 
-'Self-activation via email',
-
+'Самоактивация через E-mail',
 'manual_activation' => 
-'Manual activation by an administrator',
-
+'Активация Администратором',
 'require_terms_of_service' => 
-'Require Terms of Service',
-
+'Требовать принятия Правил',
 'member_theme' => 
-'Default Member Profile Theme',
-
+'Тема профиля участника по умолчанию',
 'member_theme_exp' => 
-'Determines which theme to use for the various membership pages: login, registration, profile, etc.',
-
+'Определяет Тему (дизайн), используемую для различных страниц участников: Вход, Регистрация, Профиль и т.д.',
 'require_terms_of_service_exp' => 
-'Setting this to yes forces users to check the ',
-
+'При выборе варианта Да от пользователя в ходе регистрации требуется пометка \\\"С Правилами ознакомлен\\\".',
 'use_membership_captcha' => 
-'Enable Membership CAPTCHA',
-
+'Задействовать кодовое слово (CAPTCHA) при регистрации',
 'new_member_notification' => 
-'Send new member notifications?',
-
+'Уведомлять администраторов о новых регистрациях?',
 'mbr_notification_emails' => 
-'Email Address for Notification',
-
+'Email-адрес для уведомления',
 'separate_emails' => 
-'Separate multiple emails with a comma',
-
+'Разделяйте Email-адреса запятой',
 'email_console_timelock' => 
-'Email Console Timelock',
-
+'Период блокировки Email-консоли',
 'email_console_timelock_exp' => 
-'The number of minutes that must lapse before a member is allowed to send another email.  Note:  This only applies to the Email Console in the member profile pages.',
-
+'Период времени (в минутах) до отправки пользователем следующего письма.  Примечание:  Эта установка действует только в отношении доступа к Email-консоли со страниц Профиля участника.',
 'log_email_console_msgs' => 
-'Log Email Console Messages',
-
+'Вести журнал Email-консоли',
 'log_email_console_msgs_exp' => 
-'This preference lets you log all messages sent via the Email Console in the member profile pages.',
-
+'Эта настройка позволяет сохранять все сообщения, отправленные через Email-консоль со страниц Профиля участника.',
 'default_member_group' => 
-'Default Member Group Assigned to New Members',
-
+'Назначение группы пользователей',
 'group_assignment_defaults_to_two' => 
-'If you require account activation, members will be set to this once they are activated',
-
+'Если требуется активация аккаунта, то после активации участники автоматически попадают в эту группу',
 'website_session_type' => 
-'Website Session Type',
-
+'Тип сессии для сайта',
 'cp_session_type' => 
-'Control Panel Session Type',
-
+'Тип сессии для Панели управления',
 'security_cfg' => 
-'Security and Session Preferences',
-
+'Настройки безопасности и сессий',
 'un_min_len' => 
-'Minimum Username Length',
-
+'Минимальная длина Имени пользователя',
 'pw_min_len' => 
-'Minimum Password Length',
-
+'Минимальная длина Пароля',
 'cs_session' => 
-'Cookies and session ID',
-
+'Cookies и Session ID',
 'c_session' => 
-'Cookies only',
-
+'Только Cookies',
 's_session' => 
-'Session ID only',
-
+'Только Session ID',
 'deny_duplicate_data' => 
-'Deny Duplicate Data?',
-
+'Запретить дублирование?',
 'deny_duplicate_data_explanation' => 
-'This option prevents data submitted by users (comments, etc.) from being received if it is an exact duplicate of data that already exists.',
-
+'Эта настройка предотвращает прием идентичных (дублирующих) копий уже отправленных пользователями материалов (комментариев, трекбэков и т.д.).',
 'allow_multi_logins' => 
-'Allow multiple log-ins from a single account?',
-
+'Разрешить множественную авторизацию с одного аккаунта?',
 'allow_multi_logins_explanation' => 
-'Determines whether more than one person can simultaneously access the system using the same user account.  Note: If your Session Type above is set to ',
-
+'Определяет возможность одновременного доступа к системе для нескольких пользователей с использованием одного аккаунта.  Примечание: Если установлен тип сессии \\\"Только Cookies\\\", эта настройка работать не будет.',
 'password_lockout' => 
-'Enable Password Lockout?',
-
+'Задействовать отключение пароля?',
 'password_lockout_explanation' => 
-'If enabled, only four invalid login attempts are permitted within the time interval specified below. This is a deterrent to hackers using collision attacks to guess poorly chosen passwords.',
-
+'При использовании этой настройки  будут разрешены лишь четыре неудачные попытки авторизации в течение указанного ниже интервала времени. Это защищает от хакерских попыток угадать возможно неудачно выбранный пароль.',
 'password_lockout_interval' => 
-'Time Interval for Lockout',
-
+'Интервал времени для блокировки',
 'login_interval_explanation' => 
-'Number is set in minutes.  You are allowed to use decimal fractions.  Example:  1.5',
-
+'Число в минутах.  Можно указывать десятые доли.  Пример:  1.5',
 'require_ip_for_login' => 
-'Require IP Address and User Agent for Login?',
-
+'Запрашивать IP-адрес и User Agent для входа в систему?',
 'require_ip_explanation' => 
-'Prevents users from logging in unless their browser generates IP Address and User Agent data. This keeps hackers from logging in using direct socket connections.',
-
+'Вход в систему невозможен без предоставления браузером пользователя IP-адреса и данных User Agent. Эта настройка защищает от хакерских попыток войти в систему посредством прямых сокет-подключений.',
 'allow_username_change' => 
-'Allow members to change their username?',
-
+'Разрешать участникам изменять свое имя пользователя?',
 'require_secure_passwords' => 
-'Require Secure Passwords?',
-
+'Требовать использование безопасных паролей?',
 'secure_passwords_explanation' => 
-'Users will have to choose passwords containing at least one uppercase, one lowercase, and one numeric character',
-
+'В этом случае пользователи должны выбирать себе пароли, содержащие как минимум одну прописную букву, одну строчную и одну цифру',
 'allow_dictionary_pw' => 
-'Allow Dictionary Words as Passwords?',
-
+'Разрешить использовать в качестве паролей словарные слова?',
 'real_word_explanation' => 
-'This setting prevents users from using words and names contained in a dictionary as their password',
-
+'Эта настройка предотвращает использование пользователями в качестве своих паролей слова, содержащиеся в словаре',
 'dictionary_note' => 
-'Note: In order to use this feature you must install the dictionary file.  Consult the manual.',
-
+'Примечание: Для обеспечения функционирования этой настройки необходимо установить файл словаря.  См. Руководство.',
 'name_of_dictionary_file' => 
-'Name of Dictionary File',
-
+'Название файла словаря',
 'dictionary_explanation' => 
-'The name of the file containing your word list',
-
+'Имя файла со списком слов',
 'license_contact_explanation' => 
-'The contact email address for the owner of this software license.',
-
+'Контактный адрес электронной почты для владельца этой лицензии на программное обеспечение.',
 'license_number_explanation' => 
-'You can find and manage your software licenses on the EllisLab.com <a href=',
-
+'Вы можете найти и управлять лицензиями на программное обеспечение на странице EllisLab.com <a href=\"https://store.ellislab.com/manage\">Управление покупками</a> page,',
 'image_path' => 
-'Path to Images Directory',
-
+'Путь к директории изображений',
 'cp_url' => 
-'URL to your Control Panel index page',
-
+'URL главной страницы Панели управления',
 'with_trailing_slash' => 
-'With trailing slash',
-
+'Со слэшем в конце',
 'site_url' => 
-'URL to the root directory of your site',
-
+'URL корневой директории Вашего сайта',
 'url_explanation' => 
-'This is the directory containing your site index file.',
-
+'Это директория, в которой находится файл index.php Вашего сайта.',
 'doc_url' => 
-'URL to Documentation Directory',
-
+'URL директории с документацией',
 'doc_url_explanation' => 
-'Root directory only, with trailing slash',
-
+'Только корневая директория, со слэшем в конце',
 'site_index' => 
-'Name of your site\'s index page',
-
+'Название стартовой страницы Вашего сайта',
 'system_path' => 
-'Absolute path to your %x folder',
-
+'Абсолютный путь к Вашей %x -папке',
 'force_query_string' => 
-'Force URL query strings',
-
+'Использовать строки запросов в URL',
 'safe_mode' => 
-'Is your server running PHP in Safe Mode?',
-
+'PHP на Вашем сервере запущен в безопасном режиме (Safe Mode)?',
 'force_query_string_explanation' => 
-'This is a safety mechanism for servers that do not support the PATH_INFO variable.',
-
+'Это механизм безопасности для серверов, не поддерживающих переменную PATH_INFO.',
 'debug' => 
-'Debug Preference',
-
+'Настройки режима отладки',
 'debug_explanation' => 
-'Enables the display of error messages, which are valuable during site development',
-
+'Включает вывод сообщений об ошибках. Полезно на стадии разработки сайта',
 'show_profiler' => 
-'Display Output Profiler?',
-
+'Включает вывод профилирования?',
 'show_profiler_explanation' => 
-'If enabled, Super Admins will see benchmark results, all SQL queries, and submitted form data displayed at the bottom of the browser window.  Useful for debugging.',
-
+'Если включить, Суперадминистраторы могут увидеть результаты тестов, все SQL запросы, и отправленные из форм данные внизу окна веб браузера. Полезно при отладке.',
 'debug_zero' => 
-'0: No PHP/SQL error messages generated',
-
+'0: Сообщения об ошибках PHP/SQL выводиться не будут',
 'debug_one' => 
-'1: PHP/SQL error messages shown only to Super Admins',
-
+'1: Сообщения об ошибках PHP/SQL будут видны только Суперадминистраторам',
 'debug_two' => 
-'2: PHP/SQL error messages shown to anyone - NOT SECURE',
-
+'2: Сообщения об ошибках PHP/SQL будут видны всем - НЕБЕЗОПАСНО',
 'deft_lang' => 
-'Default Language',
-
+'Язык по умолчанию',
 'xml_lang' => 
-'Default XML Language',
-
+'Язык XML по умолчанию',
 'used_in_meta_tags' => 
-'Used in control panel meta tags',
-
+'Используется в мета-тегах Панели управления',
 'use_newrelic' => 
-'Enable New Relic RUM JavaScript?',
-
+'Включить New Relic RUM JavaScript?',
 'use_newrelic_explanation' => 
-'When enabled, New Relic will add <a href=',
-
+'Когда включено New Relic, то добавится  <a href=\"https://newrelic.com/docs/features/real-user-monitoring\" rel=\"external\">JavaScript Мониторинга пользователей в реальном времени</a> на все страницы вашего сайта.',
 'newrelic_app_name' => 
-'New Relic Application Name',
-
+'Имя New Relic приложения',
 'newrelic_app_name_explanation' => 
-'Changes the name of the application that appears in the New Relic dashboard for this installation of ExpressionEngine.',
-
+'Изменение имя приложения, которое отображется на панели управления New Relic приложения, для этой установки ExpressionEngine.',
 'gzip_output' => 
-'Enable GZIP Output?',
-
+'Включить GZIP-вывод?',
 'gzip_output_explanation' => 
-'When enabled, your site will be shown in a compressed format for faster page loading',
-
+'Если включено, для ускорения вывода страниц сайта будет использоваться механизм передачи сжатой информации',
 'send_headers' => 
-'Generate HTTP Page Headers?',
-
+'Генерировать HTTP-заголовки страниц?',
 'redirect_method' => 
-'Redirection Method',
-
+'Метод перенаправления',
 'location_method' => 
-'Location (faster)',
-
+'Location (быстрее)',
 'refresh_method' => 
-'Refresh (Windows servers)',
-
+'Refresh (для Windows-серверов)',
 'localization_cfg' => 
-'Localization Settings',
-
+'Настройки локализации',
 'date_format' => 
-'Default Date Formatting',
-
+'Формат даты по умолчанию',
 'time_format' => 
-'Default Time Formatting',
-
+'Формат времени по умолчанию',
 '24_hour' => 
-'24-hour',
-
+'24-часа',
 '12_hour' => 
-'12-hour with AM/PM',
-
+'12-часов с AM/PM',
 'default_site_timezone' => 
-'Site Timezone',
-
+'Часовой пояс сервера',
 'cookie_cfg' => 
-'Cookie Settings',
-
+'Настройки Cookie',
 'cookie_domain' => 
-'Cookie Domain',
-
+'Домен Cookie',
 'cookie_domain_explanation' => 
-'Use .yourdomain.com for  site-wide cookies',
-
+'Используйте .yourdomain.com для cookies всего сайта',
 'cookie_prefix' => 
-'Cookie Prefix',
-
+'Префикс Cookie',
 'cookie_prefix_explain' => 
-'Use only if you are running multiple installations of this program',
-
+'Используйте, только если у Вас установлено несколько экземпляров системы',
 'cookie_path' => 
-'Cookie Path',
-
+'Путь Cookie',
 'cookie_path_explain' => 
-'Use only if you require a specific server path for cookies',
-
+'Используйте, только если для cookies требуется особый путь на сервере',
 'image_resize_protocol' => 
-'Image Resizing Protocol',
-
+'Протокол изменения размера изображений',
 'image_resize_protocol_exp' => 
-'Please check with your hosting provider to verify that your server supports the chosen protocol.',
-
+'О том, какой протокол поддерживает сервер, можно узнать у Вашего хостинг-провайдера.',
 'image_library_path' => 
-'Image Converter Path',
-
+'Путь к графической библиотеке',
 'image_library_path_exp' => 
-'If you chose either ImageMagick or NetPBM you must specify the server path to the program.',
-
+'При выборе ImageMagick или NetPBM необходимо указать путь к библиотеке на сервере.',
 'gd' => 
 'GD',
-
 'gd2' => 
 'GD 2',
-
 'netpbm' => 
 'NetPBM',
-
 'imagemagick' => 
-'ImageMagick',
-
+'ImageMagik',
 'thumbnail_prefix' => 
-'Image Thumbnail Suffix',
-
+'Суффикс для миниатюр',
 'thumbnail_prefix_exp' => 
-'This suffix will be added to all auto-generated thumbnails.  Example: photo_thumb.jpg',
-
+'Этот суффикс будет добавляться ко всем автоматически генерируемым миниатюрам.  Пример: photo_thumb.jpg',
 'captcha_path' => 
-'Server Path to CAPTCHA Folder',
-
+'Путь на сервере к директории captchas',
 'captcha_url' => 
-'Full URL to CAPTCHA Folder',
-
+'Полный URL директории captchas',
 'captcha_font' => 
-'Use TrueType Font for CAPTCHA?',
-
+'Использовать для CAPTCHA шрифт TrueType?',
 'email_cfg' => 
-'Email Configuration',
-
+'Настройки E-mail',
 'mail_protocol' => 
-'Email Protocol',
-
+'Протокол E-mail ',
 'smtp_server' => 
-'SMTP Server Address',
-
+'Адрес SMTP-сервера',
 'smtp_port' => 
-'SMTP Server Port',
-
+'Порт SMTP-сервера',
 'empty_stmp_fields' => 
-'The %s field is required for SMTP.',
-
+'Поле %s обязательно требуется для SMTP-сервера.',
 'smtp_username' => 
-'SMTP Username',
-
+'Логин SMTP ',
 'smtp_password' => 
-'SMTP Password',
-
+'Пароль SMTP',
 'only_if_smpte_chosen' => 
-'Use this only if you chose SMTP',
-
+'Используйте, только если выбран SMTP',
 'email_batchmode' => 
-'Use Batch Mode?',
-
+'Использовать пакетный режим?',
 'batchmode_explanation' => 
-'Batch Mode breaks up large mailings into smaller groups, which get sent at intervals.  Recommended if your site is hosted on a shared-hosting account.',
-
+'При пакетном режиме большое число сообщений разбивается на небольшие группы, отправляемые с интервалом времени.  Рекомендуется в условиях виртуального (общего) хостинга.',
 'email_batch_size' => 
-'Number of Emails Per Batch',
-
+'Количество писем в пакете',
 'batch_size_explanation' => 
-'For average servers, 300 is a safe number',
-
+'Обычно для большинства серверов вполне надежное число - 300',
 'webmaster_email' => 
-'Return email address for auto-generated emails',
-
+'Указывать обратный адрес в автоматически генерируемых письмах',
 'return_email_explanation' => 
-'If you leave this blank, many email servers will consider your email spam',
-
+'Если не включить эту функцию, многие почтовые серверы примут такие письма за спам',
 'php_mail' => 
 'PHP Mail',
-
 'sendmail' => 
 'Sendmail',
-
 'smtp' => 
 'SMTP',
-
 'plain_text' => 
-'Plain Text',
-
+'Текст',
 'html' => 
 'HTML',
-
 'mail_format' => 
-'Default Mail Format',
-
+'Формат писем по умолчанию',
 'word_wrap' => 
-'Enable Word-wrapping by Default?',
-
+'Включить перенос строк по умолчанию?',
 'template_cfg' => 
-'Template Preferences',
-
+'Настройки шаблонов',
 'censoring_cfg' => 
-'Word Censoring',
-
+'Цензура слов',
 'enable_censoring' => 
-'Enable Word Censoring?',
-
+'Использовать цензуру?',
 'censored_words' => 
-'Censored Words',
-
+'Запрещенные слова',
 'censored_explanation' => 
-'Place each word on a separate line.',
-
+'Вводите по одному слову в строке.',
 'emoticon_cfg' => 
-'Emoticon Preferences',
-
+'Настройки смайлов',
 'enable_emoticons' => 
-'Display Smileys?',
-
+'Показывать смайлы?',
 'emoticon_url' => 
-'URL to the directory containing your smileys ',
-
+'Путь до директории где находятся ваши смайлы',
 'tracking_cfg' => 
-'Tracking Preferences',
-
+'Настройки статистики посещений',
 'enable_online_user_tracking' => 
-'Enable Online User Tracking?',
-
+'Включить подсчет посетителей на сайте?',
 'dynamic_tracking_disabling' => 
-'Suspend ALL tracking when number of online visitors exceeds:',
-
+'Приостановить ВСЕ подсчеты посетителей на сайте, если их число превышает:',
 'dynamic_tracking_disabling_info' => 
-'Online User Tracking must be enabled to use this feature, see the user guide for details.',
-
+'Для использования этой функции необходимо включить подсчет числа посетителей на сайте. Более подробная информация изложена в Руководстве.',
 'enable_hit_tracking' => 
-'Enable Template Hit Tracking?',
-
+'Включить счетчик просмотров шаблонов?',
 'enable_entry_view_tracking' => 
-'Enable Channel Entry View Tracking?',
-
+'Включить счетчик просмотров записей блогов?',
 'log_referrers' => 
-'Enable Referrer Tracking?',
-
+'Включить отслеживание рефереров?',
 'channel_administration' => 
-'Channel Administration',
-
+'Администраторы канала',
 'channels' => 
-'Channels',
-
+'Каналы',
 'field_management' => 
-'Channel Fields',
-
+'Настраиваемые поля канала',
 'file_upload_prefs' => 
-'File Upload Preferences',
-
+'Настройки загрузки файлов',
 'categories' => 
-'Categories',
-
+'Категории',
 'missing_required_fields' => 
-'You Are Missing Required Field(s):',
-
+'Пропущено обязательное для заполнения поле:',
 'statuses' => 
-'Statuses',
-
+'Статусы',
 'status_created' => 
-'Status created',
-
+'Статус создан',
 'status_updated' => 
-'Status updated',
-
+'Статус обновлен',
 'status_deleted' => 
-'Status deleted',
-
+'Статус был удалён',
 'taken_status_group_name' => 
-'This status group name is already taken.',
-
+'Это название группы статусов уже занято.',
 'invalid_status_name' => 
-'Status names can only have alpha-numeric characters, as well as spaces, underscores and hyphens.',
-
+'В названиях статусов можно использовать только буквы, цифры, а также пробелы, подчеркивания и дефисы.',
 'duplicate_status_name' => 
-'A status already exists with the same name.',
-
+'Статус с таким названием уже существует.',
 'edit_preferences' => 
-'Edit Preferences',
-
+'Редактировать настройки',
 'preferences_updated' => 
-'Preferences Updated',
-
+'Настройки изменены',
 'edit_groups' => 
-'Edit Group Assignments',
-
+'Редактировать группы',
 'members_and_groups' => 
-'Members and Groups',
-
+'Участники и группы',
 'utilities' => 
-'Utilities',
-
+'Утилиты',
 'view_log_files' => 
-'View Control Panel Log',
-
+'Просмотр журнала Панель управления',
 'clear_caching' => 
-'Clear Cached Data',
-
+'Удалить кэшированные данные',
 'page_caching' => 
-'Page (template) cache files',
-
+'Кэш-файлы страниц (шаблонов)',
 'tag_caching' => 
-'Tag cache files',
-
+'Кэш-файлы тегов',
 'db_caching' => 
-'Database cache files',
-
+'Кэш-файлы базы данных',
 'all_caching' => 
-'All caches',
-
+'Все кэши',
 'cache_deleted' => 
-'Cache files have been deleted',
-
+'Кэш-файлы удалены',
 'php_info' => 
-'PHP Info',
-
+'Информация о PHP',
 'sql_manager' => 
-'SQL Manager',
-
+'SQL-менеджер',
 'sql_info' => 
-'SQL Info',
-
+'Информация SQL',
 'sql_utilities' => 
-'SQL Utilities',
-
+'SQL-утилиты',
 'database_type' => 
-'Database Type',
-
+'Тип базы данных',
 'sql_version' => 
-'Database Version',
-
+'Версия базы данных',
 'database_size' => 
-'Database Size',
-
+'Размер базы данных',
 'database_uptime' => 
-'Database Uptime',
-
+'Время безотказной работы базы данных',
 'total_queries' => 
-'Total server queries since startup',
-
+'Всего запросов сервера после запуска',
 'sql_status' => 
-'Status Info',
-
+'Информация о статусе',
 'sql_system_vars' => 
-'System Variables',
-
+'Системные переменные',
 'sql_processlist' => 
-'Process List',
-
+'Список SQL-процессов ',
 'sql_query' => 
-'Database Query Form',
-
+'Форма запроса к БД',
 'query_result' => 
-'Query Result',
-
+'Результат запроса',
 'query' => 
-'SQL Query',
-
+'SQL-запрос',
 'total_results' => 
-'Total Results: %x',
-
+'Всего результатов: %x',
 'total_affected_rows' => 
-'Total Affected Rows: ',
-
+'Всего обработано строк: ',
 'browse' => 
-'Browse',
-
+'Просмотр',
 'tables' => 
-'tables',
-
+'таблицы',
 'table_name' => 
-'Table Name',
-
+'Имя таблицы',
 'records' => 
-'Database Records',
-
+'Записи Базы Данных',
 'size' => 
-'Size',
-
+'Размер',
 'type' => 
-'Type',
-
+'Тип',
 'analize' => 
-'Analize Tables',
-
+'Анализ таблиц',
 'optimize' => 
-'Optimize SQL Tables',
-
+'Оптимизировать SQL-таблицы',
 'repair' => 
-'Repair SQL Tables',
-
+'Исправить SQL-таблицы',
 'optimize_table' => 
-'Optimize selected tables',
-
+'Оптимизировать выбранные таблицы',
 'repair_table' => 
-'Repair selected tables',
-
+'Исправить выбранные таблицы',
 'select_all' => 
-'Select All',
-
+'Выбрать/Отменить все',
 'no_buttons_selected' => 
-'You must select the tables in which to perform this action',
-
+'Необходимо выбрать таблицы для выполнения в них этого действия',
 'unsupported_compression' => 
-'Your PHP installation does not support this compression method',
-
+'Ваша установка PHP не поддерживает этот метод сжатия',
 'backup_info' => 
-'Use this form to backup your database.',
-
+'Используйте эту форму для резервного копирования базы данных.',
 'save_as_file' => 
-'Save backup to your desktop',
-
+'Сохранить резервную копию в файл',
 'view_in_browser' => 
-'View backup in your browser',
-
+'Просмотр резервной копии в браузере',
 'sql_query_instructions' => 
-'Use this form to submit an SQL query',
-
+'Используйте эту форму для выполнения SQL-запроса',
 'sql_query_debug' => 
-'Enable MySQL Error Output',
-
+'Включить вывод ошибок MySQL',
 'file_type' => 
-'Тип файла: ',
-
+'Тип файла',
 'zip' => 
 'Zip',
-
 'gzip' => 
 'Gzip',
-
 'advanced_users_only' => 
-'Advanced Users Only',
-
+'Только для опытных пользователей',
 'recount_stats' => 
-'Recount Statistics',
-
+'Пересчитать статистику',
 'recount_prefs' => 
-'Recount Preferences',
-
+'Пересчитать Настройки',
 'recount_batch_total' => 
-'Total number of database rows processed per batch.',
-
+'Общее количество обработанных строк базы данных в пакете.',
 'preference_updated' => 
-'Preference Updated',
-
+'Настройки обновлены',
 'click_to_recount' => 
-'Click to recount rows %x through %y',
-
+'Нажмите для пересчета строк с %x по %y',
 'items_remaining' => 
-'Records remaining:',
-
+'Осталось записей:',
 'recount_completed' => 
-'Recount Completed',
-
+'Пересчет завершен',
 'return_to_recount_overview' => 
-'Return to Main Recount Page',
-
+'Возврат к главной странице пересчета',
 'recounting' => 
-'Recounting',
-
+'Пересчет',
 'recount_info' => 
-'The links below allow you to update various statistics, like how many entries each member has submitted.',
-
+'Приведенные ниже ссылки позволяют обновлять различную статистику, например, определять количество статей, опубликованных каждым участником.',
 'source' => 
-'Source',
-
+'Источник',
 'total_records' => 
-'Total Records:',
-
+'Всего записей:',
 'recalculate' => 
-'Recount Statistics',
-
+'Обработать данные',
 'do_recount' => 
-'Perform Recount',
-
+'Выполнить пересчет',
 'exp_members' => 
-'Members',
-
+'Участники',
 'exp_channel_titles' => 
-'Channel Entries',
-
+'Записи канала',
 'search_and_replace' => 
-'Find and Replace',
-
+'Найти и заменить',
 'sandr_instructions' => 
-'These forms enable you to search for specific text and replace it with different text',
-
+'Эти формы позволяют находить указанный текст и заменять его другим',
 'search_term' => 
-'Search for this text',
-
+'Найти этот текст',
 'replace_term' => 
-'And replace it with this text',
-
+'И заменить его этим текстом',
 'replace_where' => 
-'In what database field do you want the replacement to occur?',
-
+'В каком поле базы данных Вы хотите выполнить замену?',
 'search_replace_disclaimer' => 
-'Depending on the syntax used, this function can produce undesired results.  Consult the manual and backup your database.',
-
+'В зависимости от используемого синтаксиса эта функция может привести к нежелательным результатам.  Смотрите Руководство и сделайте резервную копию базы данных.',
 'title' => 
-'Title',
-
+'Заголовок',
 'channel_entry_title' => 
-'Channel Entry Titles',
-
+'Названия статей канала',
 'channel_fields' => 
-'Channel Fields:',
-
+'Поля каналов:',
 'templates' => 
-'In ALL Templates',
-
+'Во ВСЕХ шаблонах',
 'rows_replaced' => 
-'Number of database records in which a replacement occurred:',
-
+'Число записей базы данных, в которых произведена замена:',
 'view_database' => 
-'Manage Database Tables',
-
+'Управление таблицами базы данных',
 'sql_no_result' => 
-'The query you submitted did not produce any results',
-
+'По Вашему запросу совпадений не обнаружено',
 'sql_not_allowed' => 
-'Sorry, but that is not one of the allowed query types.',
-
+'Извините, но этот тип запроса не разрешен.',
 'site_statistics' => 
-'Site Statistics',
-
+'Статистика сайта',
 'translation_tool' => 
-'Translation Utility',
-
+'Утилита перевода',
 'translation_dir_unwritable' => 
-'Warning: Your translation directory is not writable.',
-
+'Внимание! Директория перевода защищена от записи.',
 'please_set_permissions' => 
-'Please set the permissions to 666 or 777 on the following directory:',
-
+'Установите права доступа равными 666 или 777 для директории:',
 'choose_translation_file' => 
-'Choose a file to translate',
-
+'Выберите файл для перевода',
 'core_language_files' => 
-'Core language files:',
-
+'Языковые файлы ядра:',
 'module_language_files' => 
-'Module language files:',
-
+'Языковые файлы модулей:',
 'file_saved' => 
-'The file has been saved',
-
+'Файл сохранен',
 'default_html_buttons' => 
-'Default HTML Buttons',
-
+'HTML-кнопки по умолчанию',
 'add_html_button' => 
-'Add HTML button',
-
+'Добавить HTML кнопку',
 'add_predefined_html_button' => 
-'Add Predefined HTML button',
-
+'Добавить готовую HTML кнопку',
 'add_new_html_button' => 
-'Add new HTML button',
-
+'Добавить новую HTML кнопку',
 'member_import' => 
-'Member Import Utility',
-
+'Утилита импорта участников',
 'specialty_templates' => 
-'Specialty Templates',
-
+'Специальные шаблоны',
 'plugin_manager' => 
-'Plugin Manager',
-
+'Менеджер плагинов',
 'installed_plugins' => 
-'Installed Plugins',
-
+'Установленные плагины',
 'view_info' => 
-'View Info',
-
+'Просмотр информации',
 'plugin_information' => 
-'Plugin Information',
-
+'Информация о плагине',
 'pi_name' => 
-'Name',
-
+'Название',
 'pi_author' => 
-'Author',
-
+'Автор',
 'pi_version' => 
-'Version',
-
+'Версия',
 'pi_author_url' => 
-'Author URL',
-
+'URL автора',
 'pi_description' => 
-'Description',
-
+'Описание',
 'pi_usage' => 
-'Usage',
-
+'Использование',
 'no_additional_info' => 
-'No additional information is available for this plugin',
-
+'Об этом плагине дополнительной информации нет',
 'update_and_return' => 
-'Update and Finished',
-
+'Обновить и закрыть',
 'view_throttle_log' => 
-'View Throttle Log',
-
+'Просмотр результатов ограничения активности посетителей',
 'no_throttle_logs' => 
-'No IPs are currently being throttled by the system.',
-
+'В настоящее время нет IP, активность которых понижается системой.',
 'throttling_disabled' => 
-'Throttling Disabled',
-
+'Ограничение активности посетителей выключено',
 'hits' => 
-'Hits',
-
+'Счетчик',
 'locked_out' => 
-'Locked Out',
-
+'Заблокирован',
 'last_activity' => 
-'Last Activity',
-
+'Последняя активность',
 'blacklist_all_ips' => 
-'Blacklist All IPs',
-
+'Занести все IP в черный список',
 'sites_tab_behavior' => 
-'Sites Tab Behavior',
-
+'Режим закладки Сайты',
 'is_site_on' => 
-'Is site on?',
-
+'Сайт включен?',
 'is_site_on_explanation' => 
-'If site is off, only Super Admins will be able to see this site',
-
+'Если сайт выключен, то сайт будет доступен только Суперадминистраторам',
 'theme_folder_path' => 
-'Theme Folder Path',
-
+'Путь к директории с темами оформления',
 'site_preferences' => 
-'Site Preferences',
-
+'Настройки сайта',
 'multiple_sites_enabled' => 
-'Enable Multiple Site Manager',
-
+'Включить Менеджер сайтов',
 'admin_content' => 
-'Administration',
-
+'Администрация',
 'admin_system' => 
-'Administration',
-
+'Администрация',
 'illegal_characters' => 
-'The name you submitted may only contain alpha-numeric characters, underscores, and dashes',
-
+'Указанное Вами название блога может состоять только из букв, цифр, пробелов, подчеркиваний и дефисов',
 'developer_logs' => 
-'You have %d unviewed items in the <a href=',
-
-''=>''
-);
-
-// End of File
+'У вас %d непросмотренных записей в <a href=\"%s\">Журнале разработчика</a>.',
+'' => 
+'',
+''=>'');

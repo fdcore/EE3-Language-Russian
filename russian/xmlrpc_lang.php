@@ -1,11 +1,7 @@
 <?php
-
 $lang = array(
-
-'invalid_license' =>
-'Invalid License',
-
-''=>''
-);
-
-// EOF
+'invalid_license' => 
+'Недопустимая лицензия',
+'' => 
+'',
+''=>'');

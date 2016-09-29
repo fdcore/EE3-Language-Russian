@@ -1,20 +1,9 @@
 <?php
-
 $lang = array(
-
-//----------------------------------------
-// Required for MODULES page
-//----------------------------------------
-
-'query_module_name' => 'Query',
-
-'query_module_description' => 'SQL query module for templates',
-
-//----------------------------------------
-
-
-
-''=>''
-);
-
-// EOF
+'query_module_name' => 
+'SQL-запросы',
+'query_module_description' => 
+'Модуль SQL-запросов для шаблонов',
+'' => 
+'',
+''=>'');

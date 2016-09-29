@@ -1,73 +1,97 @@
 <?php
-
 $lang = array(
-
-'tools'					=> 'Tools',
-'tools_data' 			=> 'Data',
-'tools_logs'			=> 'Logs',
-'tools_utilities'		=> 'Utilities',
-
-'communicate'			=> 'Communicate',
-
-'config_editor'			=> 'Config File Manager',
-'php_info' 				=> 'PHP Info',
-'recount_stats' 		=> 'Recount Statistics',
-'search_and_replace' 	=> 'Search and Replace',
-'sql_manager' 			=> 'SQL Manager',
-'clear_caching'	 		=> 'Clear Cached Data',
-
-'import_utilities' 		=> 'Import Utilities',
-'translation_tool' 		=> 'Translation Utility',
-'english'				=> 'English',
-'translation'			=> 'Translation',
-
-'no_search_results'	 	=> 'No Results Found',
-
-'search_results' 		=> 'Search Results',
-'site_search' 			=> 'Site',
-'searched_in' 			=> 'Searched In',
-'search_terms' 			=> 'Search Terms',
-
-'page_caching' 			=> 'Page (template) cache files',
-'tag_caching' 			=> 'Tag cache files',
-'db_caching' 			=> 'Database cache files',
-'all_caching' 			=> 'All caches',
-
-'sandr_instructions' 	=> 'These forms enable you to search for specific text and replace it with different text',
-'search_term' 			=> 'Search for this text',
-'replace_term' 			=> 'And replace it with this text',
-'replace_where' 		=> 'In what database field do you want the replacement to occur?',
-'search_replace_disclaimer'	=> 'Depending on the syntax used, this function can produce undesired results.  Consult the manual and backup your database.',
-'advanced_users_only' 	=> 'Advanced Users Only',
-
-'choose_translation_file' 	=> 'Choose a file to translate',
-'no_lang_file' 			=> 'No Language File Provided',
-'no_lang_keys'			=> 'No Language Keys Exist to Translate',
-'invalid_path' 			=> 'The path you submitted is not valid:',
-'trans_file_not_writable'=> 'Translation file is not writeable.',
-
-'member_import' 		=> 'Member Import Utility',
-'missing_password_type'	=> 'The required type attribute is missing in the password element for user: %x. Please consult the documentation for the correct import format.',
-
-'united_states' 		=> 'United States',
-'european' 				=> 'European',
-
-
-/* Config Editor */
-'preference'			=> 'Preference',
-'setting'				=> 'Setting',
-'preferences_updated'	=> 'Preferences Updated',
-'true'					=> 'True',
-'false'					=> 'False',
-
-
-/* Translation */
-'translation_dir_unwritable' => 'Warning: Your translation directory is not writable.',
-
-'screen_name' => 'Screen Name',
-
-
-''=>''
-);
-
-// EOF
+'tools' => 
+'Инструменты',
+'tools_data' => 
+'Данные',
+'tools_logs' => 
+'Логи',
+'tools_utilities' => 
+'Утилиты',
+'communicate' => 
+'Почта',
+'config_editor' => 
+'Управление файлом настроек',
+'php_info' => 
+'Информация о PHP',
+'recount_stats' => 
+'Пересчитать статистику',
+'search_and_replace' => 
+'Найти и заменить',
+'sql_manager' => 
+'SQL-менеджер',
+'clear_caching' => 
+'Удалить кэшированные данные',
+'import_utilities' => 
+'Утилиты импорта',
+'translation_tool' => 
+'Утилита перевода',
+'english' => 
+'Английский',
+'translation' => 
+'Перевод',
+'no_search_results' => 
+'Совпадения не найдены',
+'search_results' => 
+'Результаты поиска',
+'site_search' => 
+'Сайт',
+'searched_in' => 
+'Искали в',
+'search_terms' => 
+'Слова поиска',
+'page_caching' => 
+'Кэш-файлы страниц (шаблонов)',
+'tag_caching' => 
+'Кэш-файлы тегов',
+'db_caching' => 
+'Кэш-файлы базы данных',
+'all_caching' => 
+'Все кэши',
+'sandr_instructions' => 
+'Эти формы позволяют находить указанный текст и заменять его другим',
+'search_term' => 
+'Найти этот текст',
+'replace_term' => 
+'И заменить его этим текстом',
+'replace_where' => 
+'В каком поле базы данных Вы хотите выполнить замену?',
+'search_replace_disclaimer' => 
+'В зависимости от используемого синтаксиса эта функция может привести к нежелательным результатам.  Смотрите Руководство и сделайте резервную копию базы данных.',
+'advanced_users_only' => 
+'Только для опытных пользователей',
+'choose_translation_file' => 
+'Выберите файл для перевода',
+'no_lang_file' => 
+'Нет языковых файлов',
+'no_lang_keys' => 
+'Нет переменных для перевода',
+'invalid_path' => 
+'Файл не найден.',
+'trans_file_not_writable' => 
+'Файл перевода не имеет прав на запись.',
+'member_import' => 
+'Утилита импорта участников',
+'missing_password_type' => 
+'Требуемый тип атрибута отсутствует в элементе ввода пароля для пользователя: %x. Пожалуйста, обращайтесь к документации по правильному формату импорта.',
+'united_states' => 
+'США',
+'european' => 
+'Европейский',
+'preference' => 
+'Настройки',
+'setting' => 
+'Настройка',
+'preferences_updated' => 
+'Настройки изменены',
+'true' => 
+'Истина',
+'false' => 
+'Ложь',
+'translation_dir_unwritable' => 
+'Внимание! Директория перевода защищена от записи.',
+'screen_name' => 
+'Отображаемое имя',
+'' => 
+'',
+''=>'');

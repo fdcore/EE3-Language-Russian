@@ -1,18 +1,27 @@
 <?php
-
 $lang = array(
-	'duplicate_route' => 'Route already in use.',
-	'invalid_regex' => 'Invalid regular expression',
-	'invalid_route' => 'Invalid template route: ',
-	'invalid_variable' => 'Invalid variable name, variables must be alphanumeric: ',
-	'missing_rule' => 'Rule does not exist: ',
-	'missing_segment_value' => 'Missing value for segment: ',
-	'route_not_found' => 'Template route not found.',
-	'validation_failed' => 'Validation failed.',
-	'variable_in_use' => 'Segment variable already in use: ',
-	'template_routes_header' => 'Template Routes',
-	'route' => 'Route',
-	'segments_required' => 'Require all Variables?',
-);
-
-// EOF
+'duplicate_route' => 
+'Маршрутизация уже используется.',
+'invalid_regex' => 
+'Неверное регулярное выражение',
+'invalid_route' => 
+'Неверный шаблона маршрутизации: ',
+'invalid_variable' => 
+'Неверное имя переменной, переменная может состоять из букв и цифр: ',
+'missing_rule' => 
+'Правило не найдено: ',
+'missing_segment_value' => 
+'Пропущено значение для сегмента: ',
+'route_not_found' => 
+'Шаблон маршрутизации не найден.',
+'validation_failed' => 
+'Проверка неудачна.',
+'variable_in_use' => 
+'Переменная сегмента уже используется: ',
+'template_routes_header' => 
+'Template Routes',
+'route' => 
+'Route',
+'segments_required' => 
+'Require all Variables?',
+''=>'');

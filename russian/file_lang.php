@@ -1,23 +1,11 @@
 <?php
-
 $lang = array(
-
-//----------------------------------------
-// Required for MODULES page
-//----------------------------------------
-
-'content_files' => 'Files',
-
-'file_module_name' => 'File',
-
-'file_module_description' => 'File module',
-
-//----------------------------------------
-
-
-
-
-''=>''
-);
-
-// EOF
+'content_files' => 
+'Файлы',
+'file_module_name' => 
+'Файл',
+'file_module_description' => 
+'Модуль файлов',
+'' => 
+'',
+''=>'');
